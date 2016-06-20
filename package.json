@@ -1,7 +1,7 @@
 {
-  "name": "jstutorial",
+  "name": "webtutorial",
   "version": "0.5.0",
-  "description": "JavaScript 标准参考教程",
+  "description": "Web Blog",
   "main": "index.md",
   "scripts": {
     "build": "grunt",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ruanyf/jstutorial.git"
+    "url": "git://github.com/guangxiao/webtutorial.git"
   },
   "keywords": [
     "JavaScript"
   ],
-  "author": "阮一峰",
+  "author": "陈广宵",
   "license": "Creative Commons Attribution-NonCommercial license",
   "bugs": {
-    "url": "https://github.com/ruanyf/jstutorial/issues"
+    "url": "https://github.com/guangxiao/webtutorial/issues"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
