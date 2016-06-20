@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: rouge
 permalink: none
-sitename: JavaScript 标准参考教程（alpha）
+sitename: Web 开发博客
 
 chapters:
 - introduction

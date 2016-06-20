@@ -1,8 +1,8 @@
 ---
 layout: homepage
-title: JavaScript 标准参考教程（alpha）
-date: 2012-11-18
-modifiedOn: 2014-05-18
+title: Web 开发博客
+date: 2016-06-20
+modifiedOn: 2016-06-20
 ---
 
 <h2 id="introduction">导论与历史</h2>
