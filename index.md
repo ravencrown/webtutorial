@@ -97,6 +97,7 @@ modifiedOn: 2014-05-18
 
 - [Promise](advanced/promise.html)
 - [有限状态机](advanced/fsm.html)
+- [ECMAScript6介绍](advanced/ecmascript6.html)
 - [MVC模式和Backbone.js](advanced/backbonejs.html)
 - [严格模式](advanced/strict.html)
 
