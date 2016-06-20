@@ -10,6 +10,10 @@ modifiedOn: 2016-06-20
 - [导论](introduction/intro.html)
 - [JavaScript的历史](introduction/history.html)
 
+<h2 id="nginx">Nginx</h2>
+
+- [Nginx的编译安装](nginx/install.html)
+
 <h2 id="grammar">基本语法</h2>
 
 - [概述](grammar/basic.html)
