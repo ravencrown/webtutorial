@@ -5,7 +5,7 @@ category: Nginx
 date: 2016-06-20
 modifiedOn: 2016-06-20
 ---
-**
+
 这里主要讲解CentOS下 Nginx的编译安装，其他OS的安装方式类似
 
 ##编译安装
