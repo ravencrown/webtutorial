@@ -41,13 +41,11 @@ Nginx提供的常用的第三方模块
 
 Nginx的启动、关闭、重载命令
 
-```JavaScript
-启动命令: /usr/local/nginx/sbin/nginx
-关闭命令: /usr/local/nginx/sbin/nginx -s stop
-重启命令: /usr/local/nginx/sbin/nginx -s restart
-配置文件重载: /usr/local/nginx/sbin/nginx -s reload
-检查配置命令: /usr/local/nginx/sbin/nginx -t
-```
+- **启动命令:** /usr/local/nginx/sbin/nginx
+- **关闭命令:** /usr/local/nginx/sbin/nginx -s stop
+- **重启命令:** /usr/local/nginx/sbin/nginx -s restart
+- **配置文件重载:** /usr/local/nginx/sbin/nginx -s reload
+- **检查配置命令:** /usr/local/nginx/sbin/nginx -t
 
 
 
