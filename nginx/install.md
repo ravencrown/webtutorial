@@ -8,7 +8,7 @@ modifiedOn: 2016-06-20
 
 这里主要讲解CentOS下 Nginx的编译安装，其他OS的安装方式类似
 
-##编译安装
+## 编译安装
 
 下载地址: http://nginx.org/
 安装准备: nginx依赖于pcre库,要先安装pcre
@@ -25,7 +25,7 @@ cd nginx-1.4.2
 make && make install
 ```
 
-##常见第三方模块
+## 常见第三方模块
 
 Nginx提供的常用的第三方模块
 
@@ -37,7 +37,7 @@ Nginx提供的常用的第三方模块
 - **http_proxy_module**
 - **http_php_memcached**
 
-##Nginx启动、关闭、重载
+## Nginx启动、关闭、重载
 
 Nginx的启动、关闭、重载命令
 
