@@ -1,7 +1,7 @@
 ---
 title: Nginx的编译安装
 layout: page
-category: Nginx
+category: nginx
 date: 2016-06-20
 modifiedOn: 2016-06-20
 ---
