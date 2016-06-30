@@ -1,4 +1,4 @@
----
+ssm---
 title: Nginx Location语法
 layout: page
 category: nginx
@@ -6,13 +6,14 @@ date: 2016-06-23
 modifiedOn: 2016-06-23
 ---
 
-location 有”定位”的意思, 根据Uri来进行不同的定位.
+location 有”定位”的意思, 根据URI来进行不同的定位.
 在虚拟主机的配置中,是必不可少的,location可以把网站的不同部分,定位到不同的处理方式上.
 比如, 碰到.php, 如何调用PHP解释器?  --这时就需要location
 
 ## Location 的语法
 
-location语法
+location 有”定位”的意思, 根据Uri来进行不同的定位. 在虚拟主机的配置中,是必不可少的,location可以把网站的不同部分,定位到不同的处理方式上. 比如, 碰到.php, 如何调用PHP解释器? --这时就需要location location 的语法
+
 
 ```
 Syntax:	location [ = | ~ | ~* | ^~ ] uri { ... }
