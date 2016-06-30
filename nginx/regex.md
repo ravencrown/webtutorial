@@ -8,7 +8,7 @@ modifiedOn: 2016-06-20
 
 ## Location正则
 
-```python
+```shell
 location / {
 	root   /usr/local/nginx/html;
     index  index.html index.htm;
@@ -28,7 +28,7 @@ location ~ image {
 图片真正会访问 /var/www/image/logo.png  
 
 
-```python
+```shell
 location / {
  	root	/usr/local/nginx/html;
     index	index.html index.htm;
