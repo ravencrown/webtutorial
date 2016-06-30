@@ -30,13 +30,13 @@ location ~ image {
 
 ```python
 location / {
- 	root   /usr/local/nginx/html;
-    index  index.html index.htm;
+ 	root	/usr/local/nginx/html;
+    index	index.html index.htm;
 }
  
 location /foo {
-    root /var/www/html;
-    index index.html;
+    root	/var/www/html;
+    index	index.html;
 }
 ```
 

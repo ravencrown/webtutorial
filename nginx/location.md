@@ -1,4 +1,4 @@
-ssm---
+---
 title: Nginx Location语法
 layout: page
 category: nginx
