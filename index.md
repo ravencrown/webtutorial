@@ -18,6 +18,7 @@ modifiedOn: 2016-06-20
 - [Nginx日志切割](nginx/cutting-log.html)
 - [Nginx Location语法](nginx/location.html)
 - [Nginx正则](nginx/regex.html)
+- [Nginx rewrite](nginx/rewrite.html)
 
 <h2 id="grammar">基本语法</h2>
 
