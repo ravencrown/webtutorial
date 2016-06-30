@@ -13,12 +13,12 @@ modifiedOn: 2016-06-20
 下载地址: http://nginx.org/
 安装准备: nginx依赖于pcre库,要先安装pcre
 
-```javascript
-yum install pcre pcre\-devel
-yum \-y install gcc gcc-c++ autoconf automake make
+```python
+yum install pcre pcre-devel
+yum -y install gcc gcc-c++ autoconf automake make
 yum -y install zlib zlib-devel openssl openssl--devel pcre pcre-devel 
 cd /usr/local/src/
-wget http:\/\/nginx.org/download/nginx-1.4.2.tar.gz
+wget http://nginx.org/download/nginx-1.4.2.tar.gz
 tar zxvf nginx-1.4.2.tar.gz
 cd nginx-1.4.2
 ./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_gzip_static_module

@@ -12,7 +12,7 @@ Nginx虚拟主机配置有三种方式：基于域名的虚拟主机配置、基
 	
 示例如下
 
-```javascript
+```python
 
 server {
     listen 80;  #监听端口
@@ -40,14 +40,14 @@ server {
 
 示例如下
 
-```javascript
+```python
 server {
     listen 8080;
     server_name z.com;
 
     location / {
-            root html;
-            index index.html;
+        root html;
+        index index.html;
     }
 }
 ```
@@ -57,12 +57,12 @@ server {
 
 示例如下
 
-```javascript
+```python
 server {
     listen 80;
     server_name 192.168.1.204;
 
-    location \/ {
+    location / {
         root /var/www/html;
         index index.html;
     }
