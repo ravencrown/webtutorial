@@ -2,8 +2,8 @@
 title: Nginx 虚拟主机配置
 layout: page
 category: nginx
-date: 2016-06-30
-modifiedOn: 2016-06-30
+date: 2016-06-21
+modifiedOn: 2016-06-21
 ---
 
 Nginx虚拟主机配置有三种方式：基于域名的虚拟主机配置、基于端口的虚拟主机配置、基于IP的虚拟主机配置
