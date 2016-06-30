@@ -13,7 +13,8 @@ modifiedOn: 2016-06-20
 <h2 id="nginx">Nginx</h2>
 
 - [Nginx的编译安装](nginx/install.html)
-- [Nginx 虚拟主机配置](nginx/set-webhosting.html)
+- [Nginx虚拟主机配置](nginx/set-webhosting.html)
+- [Nginx日志管理](nginx/log.html)
 
 <h2 id="grammar">基本语法</h2>
 
