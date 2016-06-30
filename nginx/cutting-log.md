@@ -1,4 +1,4 @@
----
+ssm---
 title: Nginx的定时任务完成日志切割
 layout: page
 category: nginx
@@ -19,7 +19,6 @@ modifiedOn: 2016-06-23
 示例
 
 ```shell
-
 #具体语法:
 Kill -信号选项 nginx的主进程号
 Kill -HUP 4873
@@ -34,20 +33,19 @@ Kill -USR1 `cat /xxx/path/log/nginx.pid`
 
 分析思路
 
-1.凌晨00:00:01,把昨天的日志重命名,放在相应的目录下
-2.再USR1信息号控制nginx重新生成新的日志文件
+- 凌晨00:00:01,把昨天的日志重命名,放在相应的目录下
+- 再USR1信息号控制nginx重新生成新的日志文件
 
 脚本一
 
 ```shell
-
 #!/bin/bash
 base_path='/usr/local/nginx/logs'
 log_path=$(date -d yesterday +"%Y%m")
 day=$(date -d yesterday +"%d")
 mkdir -p $base_path/$log_path
 mv $base_path/access.log $base_path/$log_path/access_$day.log
-#echo $base_path/$log_path/access_$day.log
+# echo $base_path/$log_path/access_$day.log
 kill -USR1 `cat /usr/local/nginx/logs/nginx.pid`
 
 ```
@@ -55,7 +53,6 @@ kill -USR1 `cat /usr/local/nginx/logs/nginx.pid`
 脚本二
 
 ```shell
-
 #!/bin/bash
 LOGPATH=/usr/local/nginx/logs/z.com.access.log
 BASEPATH=/data/$(date -d yesterday +%Y%m)

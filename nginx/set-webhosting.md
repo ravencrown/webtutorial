@@ -29,7 +29,7 @@ server {
 
     location / {
         root z.com;  #相对路径定位，相对于nginx根目录定位
-		index index.html;
+        index index.html;
     }
     access_log logs/z.com.access.log main;    #访问日志设置
 }

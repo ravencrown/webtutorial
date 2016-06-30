@@ -16,6 +16,7 @@ modifiedOn: 2016-06-20
 - [Nginx虚拟主机配置](nginx/set-webhosting.html)
 - [Nginx日志管理](nginx/log.html)
 - [Nginx日志切割](nginx/cutting-log.html)
+- [Nginx Location语法](nginx/location.html)
 
 <h2 id="grammar">基本语法</h2>
 
