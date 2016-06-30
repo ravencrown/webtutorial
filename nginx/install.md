@@ -13,7 +13,7 @@ modifiedOn: 2016-06-20
 下载地址: http://nginx.org/
 安装准备: nginx依赖于pcre库,要先安装pcre
 
-```python
+```shell
 yum install pcre pcre-devel
 yum -y install gcc gcc-c++ autoconf automake make
 yum -y install zlib zlib-devel openssl openssl--devel pcre pcre-devel 

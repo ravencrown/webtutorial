@@ -12,7 +12,7 @@ Nginx虚拟主机配置有三种方式：基于域名的虚拟主机配置、基
 	
 示例如下
 
-```python
+```shell
 
 server {
     listen 80;  #监听端口
@@ -40,7 +40,7 @@ server {
 
 示例如下
 
-```python
+```shell
 server {
     listen 8080;
     server_name z.com;
@@ -57,7 +57,7 @@ server {
 
 示例如下
 
-```python
+```shell
 server {
     listen 80;
     server_name 192.168.1.204;
@@ -71,7 +71,7 @@ server {
 
 ## Nginx的配置段 
 
-```python
+```shell
 # 全局区
 worker_processes 1; # 有1个工作的子进程,可以自行修改,但太大无益,因为要争夺CPU,一般设置为 CPU数*核数
  
