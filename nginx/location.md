@@ -14,18 +14,17 @@ location 有”定位”的意思, 根据Uri来进行不同的定位.
 
 location语法
 
-- 中括号可以不写任何参数,此时称为一般匹配
-- 也可以写参数
-- 因此,大类型可以分为3种
-- location = patt {} [精准匹配]
-- location patt{}  [一般匹配]
-- location ~ patt{} [正则匹配]
-
 ```
 Syntax:	location [ = | ~ | ~* | ^~ ] uri { ... }
 location @name { ... }
 Default:	—
 Context:	server, location
+
+中括号可以不写任何参数,此时称为一般匹配,也可以写参数
+因此,大类型可以分为3种:
+location = patt {} [精准匹配]
+location patt{}  [一般匹配]
+location ~ patt{} [正则匹配]
 ```
 
 
