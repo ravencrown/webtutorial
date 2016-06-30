@@ -71,6 +71,9 @@ access_log logs/access_8080.log mylog;
 #声明log   log位置          log格式;
 ```
 
-[参考文章]: (http://nginx.org/en/docs/http/ngx_http_log_module.html)
+## 参考链接
+
+- Nginx官网, [Module ngx_http_log_module](http://nginx.org/en/docs/http/ngx_http_log_module.html)
+
 
 
