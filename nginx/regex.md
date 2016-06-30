@@ -11,12 +11,12 @@ modifiedOn: 2016-06-20
 ```shell
 location / {
 	root   /usr/local/nginx/html;
-    index  index.html index.htm;
+	index  index.html index.htm;
 }
  
 location ~ image {
-   root /var/www/image;
-   index index.html;
+	root /var/www/image;
+	index index.html;
 }
 ```
 
@@ -30,13 +30,13 @@ location ~ image {
 
 ```shell
 location / {
- 	root	/usr/local/nginx/html;
-    index	index.html index.htm;
+	root	/usr/local/nginx/html;
+	index	index.html index.htm;
 }
  
 location /foo {
-    root	/var/www/html;
-    index	index.html;
+	root	/var/www/html;
+	index	index.html;
 }
 ```
 
