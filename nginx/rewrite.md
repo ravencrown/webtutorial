@@ -191,7 +191,7 @@ rewrite ^/images/(.*)_(\d+)x(\d+)\.(png|jpg|gif)$ /resizer/$1.$4?width=$2&height
 ## 参考链接
 
 
-- Nginx官网，[Location Syntax](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#rewrite)
+- Nginx官网，[Location Rewrite语法](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#rewrite)
 
 
 
