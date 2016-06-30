@@ -26,7 +26,6 @@ Syntax:	location [ = | ~ | ~* | ^~ ] uri { ... }
 location @name { ... }
 Default:	—
 Context:	server, location
-
 ```
 
 
@@ -59,7 +58,6 @@ location ~* \.(gif|jpg|jpeg)$ {
 首先看有没有精准匹配,如果有,则停止匹配过程.
 
 ``` shell
-
 #如果 $uri == patt,匹配成功，使用configA
 location = / {
     root   /var/www/html/;
@@ -70,20 +68,16 @@ location = / {
      root   /usr/local/nginx/html;
     index  index.html index.htm;
 }
-
 ```
 
-
-如果访问　　http://xxx.com/
+如果访问http://xxx.com/
 定位流程是　
 
 ```
 1: 精准匹配中　”/”   ,得到index页为　　index.htm
-2: 再次访问 /index.htm , 此次内部转跳uri已经是”/index.htm” ,
-根目录为/usr/local/nginx/html
+2: 再次访问 /index.htm , 此次内部转跳uri已经是”/index.htm” ,根目录为/usr/local/nginx/html
 3: 最终结果,访问了/usr/local/nginx/html/index.htm
 ```
-
 
 ## 参考链接
 
