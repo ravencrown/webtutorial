@@ -19,6 +19,7 @@ modifiedOn: 2016-06-20
 - [Nginx Location语法](nginx/location.html)
 - [Nginx正则](nginx/regex.html)
 - [Nginx rewrite](nginx/rewrite.html)
+- [Nginx+PHP的编译安装](nginx/phpinstall.html)
 
 <h2 id="grammar">基本语法</h2>
 
