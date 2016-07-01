@@ -21,6 +21,7 @@ modifiedOn: 2016-06-20
 - [Rewrite](nginx/rewrite.html)
 - [Nginx+PHP的编译安装](nginx/phpinstall.html)
 - [Expires缓存设置](nginx/expires.html)
+- [Gzip配置](nginx/gzip.html)
 
 <h2 id="grammar">基本语法</h2>
 

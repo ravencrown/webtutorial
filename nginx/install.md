@@ -47,8 +47,13 @@ Nginx的启动、关闭、重载命令
 - **配置文件重载:** /usr/local/nginx/sbin/nginx -s reload
 - **检查配置命令:** /usr/local/nginx/sbin/nginx -t
 
+## 参考链接
 
-
+- Nginx官网, [Nginx 文档](http://nginx.org/en/docs/)
+- Tengine, [Nginx官方文档中文版](http://tengine.taobao.org/documentation_cn.html)
+- Tengine, [Nginx 模块开发](http://tengine.taobao.org/book/module_development.html)
+- Tengine, [Nginx 原理解析](http://tengine.taobao.org/book/source_analysis.html)
+- Tengine, [Nginx 架构详解](http://tengine.taobao.org/book/chapter_09.html)
 
 
 

@@ -46,7 +46,7 @@ location /foo {
 此时, 真正访问 /var/www/html/index.html  
 原因:’/foo’匹配的更长,因此使用之.;  
 
-**示例**
+**Location的正则写法**
 
 ```shell
 location  = / {
