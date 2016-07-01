@@ -1,5 +1,5 @@
 ---
-title: Nginx的定时任务完成日志切割
+title: 日志切割
 layout: page
 category: nginx
 date: 2016-06-23

@@ -1,5 +1,5 @@
 ---
-title: Nginx Location语法
+title: Location语法
 layout: page
 category: nginx
 date: 2016-06-23

@@ -2,8 +2,8 @@
 title: Nginx + PHP的编译安装
 layout: page
 category: nginx
-date: 2016-06-23
-modifiedOn: 2016-06-23
+date: 2016-06-24
+modifiedOn: 2016-06-24
 ---
 
 ## 安装依赖包

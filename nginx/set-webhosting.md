@@ -1,5 +1,5 @@
 ---
-title: Nginx虚拟主机配置
+title: 虚拟主机配置
 layout: page
 category: nginx
 date: 2016-06-21

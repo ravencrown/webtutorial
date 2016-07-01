@@ -1,5 +1,5 @@
 ---
-title: Nginx的日志管理
+title: 日志管理
 layout: page
 category: nginx
 date: 2016-06-22

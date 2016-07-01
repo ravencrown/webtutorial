@@ -13,13 +13,14 @@ modifiedOn: 2016-06-20
 <h2 id="nginx">Nginx</h2>
 
 - [Nginx的编译安装](nginx/install.html)
-- [Nginx虚拟主机配置](nginx/set-webhosting.html)
-- [Nginx日志管理](nginx/log.html)
-- [Nginx日志切割](nginx/cutting-log.html)
-- [Nginx Location语法](nginx/location.html)
-- [Nginx正则](nginx/regex.html)
-- [Nginx rewrite](nginx/rewrite.html)
+- [虚拟主机配置](nginx/set-webhosting.html)
+- [日志管理](nginx/log.html)
+- [日志切割](nginx/cutting-log.html)
+- [Location语法](nginx/location.html)
+- [Location正则](nginx/regex.html)
+- [Rewrite](nginx/rewrite.html)
 - [Nginx+PHP的编译安装](nginx/phpinstall.html)
+- [Expires缓存设置](nginx/expires.html)
 
 <h2 id="grammar">基本语法</h2>
 
