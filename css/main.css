@@ -280,8 +280,8 @@ article ul.reference-list li:before {
 
 .language-shell pre.highlight code {
 	background-color: #2d2d2d !important;
-	font-size: 150%;
-	line-height: 150%;
+	font-size: 115%;
+	line-height: 115%;
 }
 
 p code.highlighter-rouge {
