@@ -22,6 +22,7 @@ modifiedOn: 2016-06-20
 - [Nginx+PHP的编译安装](nginx/phpinstall.html)
 - [Expires缓存设置](nginx/expires.html)
 - [Gzip配置](nginx/gzip.html)
+- [Nginx做负载均衡器以及proxy缓存配置](nginx/proxy.html)
 
 <h2 id="grammar">基本语法</h2>
 
