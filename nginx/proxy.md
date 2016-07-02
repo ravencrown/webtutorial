@@ -83,6 +83,7 @@ server {
         proxy_pass http://backend;
         proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
     }
+}
 ```
 
 ## nginx_upstream_check_module
@@ -128,6 +129,7 @@ server {
         allow 172.29.73.23;
         deny all;
     }
+}
 ```
 
 上面配置的意思是，对name这个负载均衡条目中的所有节点，每个5秒检测一次，请求2次正常则标记 realserver状态为up，如果检测 3 次都失败，则标记 realserver的状态为down，超时时间为1秒。  
@@ -195,7 +197,7 @@ http {
         }
     }
 }
-```	
+```
 
 关于缓存的失效期限上面有三个选项：X-Accel-Expires、inactive、proxy_cache_valid、expires，它们之间是有优先级的，按上面的顺序如果在header里设置 X-Accel-Expires 则它的优先级最高，否则inactive优先级最高。更多资料请参考 nginx缓存优先级 或这里。
 
@@ -209,17 +211,17 @@ http {
 使用 ngx_cache_purge 模块清除缓存有2种办法（直接删除缓存目录下的文件也算一种办法）：
 
 - echo发送PURGE指令: proxy_cache_purge PURGE from 127.0.0.1表示只允许在来自本地的清除指令
+- GET方式请求URL: 即使用配置文件中的location ~ /purge(/.*)，浏览器访问http://ittest.example.com/purge/your/may/path来清除缓存，或者echo -e 'GET /purge/ HTTP/1.0\r\n' \| nc ittest.example.com 80  
 
 ```shell
 echo -e 'PURGE / HTTP/1.0\r\n' | nc 127.0.0.1 80
 ```
-- GET方式请求URL: 即使用配置文件中的location ~ /purge(/.*)，浏览器访问http://ittest.example.com/purge/your/may/path来清除缓存，或者echo -e 'GET /purge/ HTTP/1.0\r\n' | nc ittest.example.com 80  
 
 ![http://7q5fot.com1.z0.glb.clouddn.com/nginx-cache-purge.png](http://7q5fot.com1.z0.glb.clouddn.com/nginx-cache-purge.png)  
 
 ## 参考链接
 
-- official documentation, [official documentation][http://nginx.org/en/docs/http/ngx_http_upstream_module.html]
+- official documentation, [official documentation](http://nginx.org/en/docs/http/ngx_http_upstream_module.html)
 - Nginx实战系列之功能篇—-后端节点健康检查, [Nginx实战系列之功能篇—-后端节点健康检查](http://nolinux.blog.51cto.com/4824967/1594029)
 - Tengine, [Tengine nginx_upstream_check_module](http://tengine.taobao.org/document_cn/http_upstream_check_cn.html)
 - nginx反向代理tomcat集群做负载均衡缓存, [nginx反向代理tomcat集群做负载均衡缓存](http://quenlang.blog.51cto.com/4813803/1570352)
