@@ -6,12 +6,12 @@ sitename: Web 开发博客
 chapters:
 - introduction
 - nginx
+- htmlapi
 - grammar
 - stdlib
 - oop
 - dom
 - bom
-- htmlapi
 - jquery
 - tool
 - advanced
@@ -21,12 +21,12 @@ chapters:
 
 introduction: 导论
 nginx: Nginx
+htmlapi: HTML网页的API
 grammar: 基本语法
 stdlib: 标准库
 oop: 面向对象编程
 dom: DOM
 bom: 浏览器环境
-htmlapi: HTML网页的API
 jquery: jQuery
 library: 草稿一：函数库
 nodejs: 草稿二：Node.js

@@ -24,6 +24,26 @@ modifiedOn: 2016-06-20
 - [Gzip配置](nginx/gzip.html)
 - [Nginx做负载均衡器以及proxy缓存配置](nginx/proxy.html)
 
+<h2 id="htmlapi">HTML网页的API</h2>
+
+- [Video标签](nginx/video.html)
+
+
+<!-- - [HTML网页元素](htmlapi/elements.html)
+- [Canvas](htmlapi/canvas.html)
+- [SVG图像](htmlapi/svg.html)
+- [表单](htmlapi/form.html)
+- [文件与二进制数据的操作](htmlapi/file.html)
+- [Web Worker](htmlapi/webworker.html)
+- [SSE：服务器发送事件](htmlapi/eventsource.html)
+- [Page Visiblity](htmlapi/pagevisibility.html)
+- [FullScreen API：全屏操作](htmlapi/fullscreen.html)
+- [Web Speech](htmlapi/webspeech.html)
+- [requestAnimationFrame](htmlapi/requestanimationframe.html)
+- [WebSocket](htmlapi/websocket.html)
+- [WebRTC](htmlapi/webrtc.html)
+- [Web Components](htmlapi/webcomponents.html) -->
+
 <h2 id="grammar">基本语法</h2>
 
 - [概述](grammar/basic.html)
@@ -81,23 +101,6 @@ modifiedOn: 2016-06-20
 - [Web Notification API](bom/notification.html)
 - [Performance API](bom/performance.html)
 - [移动设备API](bom/mobile.html)
-
-<h2 id="htmlapi">HTML网页的API</h2>
-
-- [HTML网页元素](htmlapi/elements.html)
-- [Canvas](htmlapi/canvas.html)
-- [SVG图像](htmlapi/svg.html)
-- [表单](htmlapi/form.html)
-- [文件与二进制数据的操作](htmlapi/file.html)
-- [Web Worker](htmlapi/webworker.html)
-- [SSE：服务器发送事件](htmlapi/eventsource.html)
-- [Page Visiblity](htmlapi/pagevisibility.html)
-- [FullScreen API：全屏操作](htmlapi/fullscreen.html)
-- [Web Speech](htmlapi/webspeech.html)
-- [requestAnimationFrame](htmlapi/requestanimationframe.html)
-- [WebSocket](htmlapi/websocket.html)
-- [WebRTC](htmlapi/webrtc.html)
-- [Web Components](htmlapi/webcomponents.html)
 
 <h2 id="tool">开发工具</h2>
 
