@@ -26,7 +26,7 @@ modifiedOn: 2016-06-20
 
 <h2 id="htmlapi">HTML网页的API</h2>
 
-- [Video标签](nginx/video.html)
+- [video元素](htmlapi/video.html)
 
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
