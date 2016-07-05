@@ -202,7 +202,8 @@ controls-控制条|	支持，但是需要开始播放了才显示|	基本都支�
 width和height|	一定给出明确的属性设置，切不能为0；|	如果不设置，仅仅通过CSS样式去控制视频大小，可能会导致
 
 ### 其他怪异bug和不友好表现
-iOS|	android
+
+iOS|android
 物理位置覆盖在<video>区域上的元素，click和touch等事件会失效，比如一个<a>链接如果覆盖在<video>上，那么点击后没有任何效果。|	-
 iOS8.0+中，单页面播放视频超过16个，再播放的视频全部MediaError解码异常无法播放。|	-
 iPhone的Safari会弹出一个全屏的播放器来播放视频，iPad则支持内联播放。iOS7+ 如果webview（比如微信）开启了webview.allowsInlineMediaPlayback = YES;，可以通过设置webkit-playsinline属性支持内联播放；|	支持内联播放，但某些厂商会用自己的播放器劫持原生的视频播放；
