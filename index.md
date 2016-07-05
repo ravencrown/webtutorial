@@ -27,11 +27,12 @@ modifiedOn: 2016-06-20
 <h2 id="htmlapi">HTML网页的API</h2>
 
 - [video元素](htmlapi/video.html)
+- [元素垂直居中](htmlapi/center-middle.html)
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)
 - [SVG图像](htmlapi/svg.html)
-- [表单](htmlapi/form.html)
+- [表单](htmlhtmlapi/form.html)
 - [文件与二进制数据的操作](htmlapi/file.html)
 - [Web Worker](htmlapi/webworker.html)
 - [SSE：服务器发送事件](htmlapi/eventsource.html)
