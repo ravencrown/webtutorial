@@ -292,6 +292,7 @@ article ul.reference-list li:before {
     background-color: #222 !important;
     font-size: 115%;
     line-height: 115%;
+    font-weight: 700;
 }
 
 .language-css pre.highlight{
@@ -302,6 +303,7 @@ article ul.reference-list li:before {
     background-color: #222 !important;
     font-size: 115%;
     line-height: 115%;
+    font-weight: 700;
 }
 
 .language-css .highlight .nl,

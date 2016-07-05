@@ -28,6 +28,7 @@ modifiedOn: 2016-06-20
 
 - [video元素](htmlapi/video.html)
 - [元素垂直居中](htmlapi/center-middle.html)
+- [侧边栏布局](htmlapi/sidebar.html)
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)
