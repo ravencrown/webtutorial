@@ -304,10 +304,10 @@ article ul.reference-list li:before {
     line-height: 115%;
 }
 
-.language-css .nl,
-.language-css .nn,
-.language-css .n,
-.language-css .nb,{
+.language-css .highlight .nl,
+.language-css .highlight .nn,
+.language-css .highlight .n,
+.language-css .highlight .nb{
     color: #66d9ef;
 }
 
