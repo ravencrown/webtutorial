@@ -152,6 +152,70 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 …|	…|	…|	…|	…|	…|	…
 
 
+**测试数据，video的长度为44.2(s)**
+
+#### iOS weixin
+
+\#   |event|   readyState | currentTime (s)| buffered (s)|    duration (s)|    视频状态
+1   |loadstart|   NOTHING| 0|   null|    NaN| 准备请求数据（初始化完毕）
+2   |play|    NOTHING| 0|   null|    NaN| 状态是开始播放，但视频并未真正开始播放
+3   |waiting| NOTHING| 0|   null|    NaN| 等待数据
+4   |durationchange|  METADATA|    0|   7.63|    44.2|    获取到视频长度
+5   |loadedmetadata|  METADATA|    0|   7.63|    44.2|    获取到元数据
+6   |loadeddata|  ENOUGH_DATA| 0|   7.63|    44.2|    
+7   |canplay| ENOUGH_DATA| 0|   7.63|    44.2|    可以播放，但中途可能因为加载而暂停
+8   |canplaythrough|  ENOUGH_DATA| 0|   7.63|    44.2|    可以流畅播放
+9   |playing| ENOUGH_DATA| 0|   7.63|    44.2|    开始播放
+10  |timeupdate|  ENOUGH_DATA| 0|   7.63|    44.2|    播放进度变化
+11  |timeupdate|  ENOUGH_DATA| 0.25|    7.63|    44.2 |  
+...| ... |  ...|  ...|  ...| ...| ...           
+22  |timeupdate|  ENOUGH_DATA| 3.01|    36.24|   44.2 |   
+23  |progress|    ENOUGH_DATA| 3.15|    44.2|    44.2|    持续下载
+24  |suspend| ENOUGH_DATA| 3.16|    44.2|    44.2|    
+25  |timeupdate|  ENOUGH_DATA| 3.26|    44.2|    44.2|    
+...| ...| ...| ...| ...| ...| ...                    
+39  |pause|   ENOUGH_DATA| 6.47|    44.2|    44.2|    手动暂停
+40  |play|    ENOUGH_DATA| 6.51|    44.2|    44.2|    
+41  |playing| ENOUGH_DATA| 6.5| 44.2|    44.2|    
+42  |timeupdate|  ENOUGH_DATA| 6.72|    44.2|    44.2|    
+...| ...| ...| ...| ...| ...| ...                     
+61  |timeupdate|  ENOUGH_DATA| 11.4|    44.2|    44.2|    
+62  |pause|   ENOUGH_DATA| 11.4|    44.2|    44.2|    网络环境切换，自动触发
+63  |play|    ENOUGH_DATA| 11.38|   44.2|    44.2|    
+64  |playing| ENOUGH_DATA| 11.41|   44.2|    44.2|    
+65  |timeupdate|  ENOUGH_DATA| 11.6|    44.2|    44.2|    
+...| ...| ...| ...| ...| ...| ...                     
+198 |timeupdate|  ENOUGH_DATA| 44.15|   44.2|    44.2|    
+199 |timeupdate|  ENOUGH_DATA| 0|   44.2|    44.2|    播放完毕
+200 |seeking| ENOUGH_DATA| 0|   44.2|    44.2|    寻找中
+201 |timeupdate|  ENOUGH_DATA| 0.1| 44.2|    44.2|    
+202 |seeked|  ENOUGH_DATA| 0.2| 44.2|    44.2|    播放完毕进度回到起点循环播放
+203 |timeupdate|  ENOUGH_DATA| 0.37|    44.2|    44.2|    
+
+
+#### iOS QQ
+
+与微信无明显差异
+
+#### iOS safari
+
+与微信无明显差异
+
+#### iOS QQ浏览器 x5内核
+
+\#   |event|   readyState|  currentTime (s)| buffered (s)|    duration (s)|    视频状态
+1   |loadstart|   NOTHING| 0|   null|    NaN| 准备请求数据（初始化完毕）
+2   |progress|    METADATA|    0|   null|    44.2|    
+3   |suspend| METADATA|    0|   null|    44.2|    
+4   |durationchange|  METADATA|    0|   null|    44.2|    
+5   |loadedmetadata|  METADATA|    0|   null|    44.2|    未触发play()事件之前，自动触发以上事件
+6   |timeupdate|  METADATA|    0|   null|    44.2|    触发play()事件，开始播放
+7   |timeupdate|  METADATA|    0|   null|    44.2|    
+8   |timeupdate|  METADATA|    0|   null|    44.2|    
+
+在QQ浏览器中除了可以获取视频长度，其他属性均无法获取。鉴于其表现比较诡异，我们的对比中除开此特例。  
+
+
 ### Android端
 
 \#	|event|	readyState|	currentTime (s)|	buffered (s)|	duration (s)|	视频状态
@@ -179,6 +243,44 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 55	|progress|	ENOUGH_DATA|	0|	7.91|	7.91|	-
 56	|stalled|	ENOUGH_DATA|	0|	7.91|	7.91|	-
 
+#### android weixin
+
+\#   |event|   readyState|  currentTime (s)| buffered (s)|    duration (s)|    视频状态
+1   |loadstart|   CURRENT_DATA|    0|   null|    1|   准备请求数据（初始化完毕）
+2   |durationchange|  CURRENT_DATA|    0|   null|    1|   
+3   |loadedmetadata|  CURRENT_DATA|    0|   null|    1 |  
+4   |loadeddata|  CURRENT_DATA|    0|   null|    1|   
+5   |stalled| CURRENT_DATA|    0|   null|    1|   未触发play()事件之前，自动触发以上事件
+6   |play|    ENOUGH_DATA| 0|   null|    1|   触发play()事件，开始播放，但视频可能并未立刻开始播放
+7   |waiting| ENOUGH_DATA| 0|   null|    1|   
+8   |canplay| ENOUGH_DATA| 0|   null|    1|   可能因为加载而卡顿
+9   |canplaythrough|  ENOUGH_DATA| 0|   null|    1|   
+10  |playing| ENOUGH_DATA| 0|   null|    1|   
+11  |timeupdate|  ENOUGH_DATA| 0|   null|    1|   
+12  |progress|    ENOUGH_DATA| 0|   null|    1|   
+13  |durationchange|  ENOUGH_DATA| 0|   null|    44.2|    
+14  |playing| ENOUGH_DATA| 0|   null|    44.2|    视频真正开始播放
+15  |timeupdate|  ENOUGH_DATA| 0.04|    null|    44.2    
+... |...| ...| ...| ...| ...                
+90  |timeupdate|  ENOUGH_DATA| 17.29|   44.2|    44.2    
+91  |pause|   ENOUGH_DATA| 17.29|   44.2|    44.2    
+92  |play|    ENOUGH_DATA| 17.29|   44.2|    44.2    
+93  |playing| ENOUGH_DATA| 17.29|   44.2|    44.2    
+94  |timeupdate|  ENOUGH_DATA| 18.75|   44.2|    44.2    
+...| ...| ...| ...| ...| ...               
+196 |timeupdate|  ENOUGH_DATA| 0|   44.2|    44.2    
+197 |seeking| ENOUGH_DATA| 0|   44.2|    44.2    
+198 |timeupdate|  ENOUGH_DATA| 0|   44.2|    44.2    
+199 |pause|   ENOUGH_DATA| 0|   44.2|    44.2|    无法自动循环播放
+
+#### android QQ
+
+与微信无明显差异
+
+#### android QQ浏览器
+
+与微信无明显差异
+
 ### 一些常用且需要重点关注的事件
 
 play|	只是要播放视频，响应的是video.play()方法，并不代表已经开始播放 |和iOS一样，仅是响应video.play()方法
@@ -204,7 +306,6 @@ width和height|	一定给出明确的属性设置，切不能为0；|	如果不�
 ### 其他怪异bug和不友好表现
 
 iOS|    Android
-************************************************ | ************************************************
 物理位置覆盖在video标签区域上的元素，click和touch等事件会失效，比如一个a链接如果覆盖在video标签上，那么点击后没有任何效果。|	-
 iOS8.0+中，单页面播放视频超过16个，再播放的视频全部MediaError解码异常无法播放。|	-
 iPhone的Safari会弹出一个全屏的播放器来播放视频，iPad则支持内联播放。iOS7+ 如果webview（比如微信）开启了webview.allowsInlineMediaPlayback = YES;，可以通过设置webkit-playsinline属性支持内联播放；|	支持内联播放，但某些厂商会用自己的播放器劫持原生的视频播放；
@@ -357,6 +458,25 @@ $video.on('timeupdate', function(event) {
     $video.attr('data-updateTime', now)
 })
 ```
+
+## 视频监控结论
+
+**首先重点介绍video对象的buffered属性：**  
+
+buffered返回 TimeRanges 对象，TimeRanges 对象表示用户已缓冲音视频的时间范围，如果用户在音视频中跳跃播放，会得到多个缓冲范围。这里要强调的是如果跳跃播放，得到的多个缓冲范围是按照大小顺序排列，无重复覆盖的。  
+
+**目前可以监控的事件有以下几点：**  
+
+1、 视频加载时间  
+play事件触发时间 至 timeupdate事件第一次currentTime 属性值发生变化时，在加载过程中可用suspend判断是否有手动暂停。  
+
+2、 视频缓冲次数  
+video对象的buffered属性返回表示视频已缓冲部分的 TimeRanges 对象，currentTime属性设置或返回视频中的当前播放位置（以秒计），利用缓冲区的变化可以记录视频缓冲次数。 目前尝试的缓冲判断为： timeupdate事件中，currentTime 超出 buffered的记录范围。  
+
+3、 视频流中断  
+引起视频停止播放的原因有：手动暂停、视频流中断、视频播放完毕，切换程序，所以用视频停止播放来判断断流不准确。 要尽可能的实时监控视频流是否中断，目前还是尝试使用video对象的buffered属性， 因为视频断流意味着buffered缓冲区不会再发生变化。 视频流中断判断可表述为： timeupdate事件中，currentTime所在的缓冲buffered段的尾部时间，不等于视频的总长度duration， 且连续多次没有变化。具体使用连续多少次作为阈值，需要反复测试，目前所得结论是20次。  
+
+
 
 ## 参考链接
 
