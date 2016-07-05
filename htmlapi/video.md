@@ -103,29 +103,29 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 2|suspend|NOTHING|0|-|-|-
 3|play|NOTHING|0|-|-|-
 4|waiting|NOTHING|0|-|-|-
-5|durationchange|METADATA|0|5.35|7.91|获取到视频长度
-6|loadedmetadata|METADATA|0|0.66|7.91|获取到元数据
-7|loadeddata|ENOUGHDATA|0|0.66|7.91|-
-8|canplay|ENOUGH_DATA|0|0.66|7.91|-
-9|playing|ENOUGH_DATA|0|0.66|7.91|开始播放
-10|canplaythrough|ENOUGH_DATA|0|0.66|7.91|可以流畅播放
-11|progress|ENOUGH_DATA|0.11|3.68|7.91|持续下载
-12|timeupdate|ENOUGH_DATA|0.14|4.44|7.91|播放进度变化
+5|durationchange|METADATA|0|5.35|44.2|获取到视频长度
+6|loadedmetadata|METADATA|0|0.66|44.2|获取到元数据
+7|loadeddata|ENOUGHDATA|0|0.66|44.2|-
+8|canplay|ENOUGH_DATA|0|0.66|44.2|-
+9|playing|ENOUGH_DATA|0|0.66|44.2|开始播放
+10|canplaythrough|ENOUGH_DATA|0|0.66|44.2|可以流畅播放
+11|progress|ENOUGH_DATA|0.11|3.68|44.2|持续下载
+12|timeupdate|ENOUGH_DATA|0.14|4.44|44.2|播放进度变化
 …|…|…|…|…|…|…
-23|progress|ENOUGH_DATA|1.77|7.91|7.91|下载完毕
-24|suspend|ENOUGH_DATA|1.77|7.91|7.91|-
-25|timeupdate|ENOUGH_DATA|1.9|7.91|7.91|继续播放中
+23|progress|ENOUGH_DATA|1.77|44.2|44.2|下载完毕
+24|suspend|ENOUGH_DATA|1.77|44.2|44.2|-
+25|timeupdate|ENOUGH_DATA|1.9|44.2|44.2|继续播放中
 …|…|…|…|…|…|…
-48|timeupdate|ENOUGH_DATA|7.7|7.91|7.91|-
-49|timeupdate|ENOUGH_DATA|0|7.91|7.91|-
-50|seeking|METADATA|0|7.91|7.91|-
-51|waiting|METADATA|0|7.91|7.91|-
-52|timeupdate|ENOUGH_DATA|0|7.91|7.91|-
-53|seeked|ENOUGH_DATA|0|7.91|7.91|播放完毕进度回到起点
-54|canplay|ENOUGH_DATA|0|7.91|7.91|-
-55|playing|ENOUGH_DATA|0|7.91|7.91|循环播放
-56|canplaythrough|ENOUGH_DATA|0|7.91|7.91|-
-57|timeupdate|ENOUGH_DATA|0.19|7.91|7.91|-
+48|timeupdate|ENOUGH_DATA|7.7|44.2|44.2|-
+49|timeupdate|ENOUGH_DATA|0|44.2|44.2|-
+50|seeking|METADATA|0|44.2|44.2|-
+51|waiting|METADATA|0|44.2|44.2|-
+52|timeupdate|ENOUGH_DATA|0|44.2|44.2|-
+53|seeked|ENOUGH_DATA|0|44.2|44.2|播放完毕进度回到起点
+54|canplay|ENOUGH_DATA|0|44.2|44.2|-
+55|playing|ENOUGH_DATA|0|44.2|44.2|循环播放
+56|canplaythrough|ENOUGH_DATA|0|44.2|44.2|-
+57|timeupdate|ENOUGH_DATA|0.19|44.2|44.2|-
 …|…|…|…|…|…|…
 
 ### iOS端
@@ -135,20 +135,20 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 1	|loadstart|	NOTHING|	0|	-|	-|	-
 2	|play|	NOTHING|	0|	-|	-|	-
 3	|waiting|	NOTHING|	0|	-|	-|	-
-4	|durationchange|	METADATA|	0|	-|	7.91|	获取到视频长度
-5	|loadedmetadata|	METADATA|	0|	-|	7.91|	获取到元数据
-6	|loadeddata|	ENOUGHDATA|	0|	-|	7.91|	-
-7	|canplay|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-8	|canplaythrough|	ENOUGH_DATA|	0|	7.91|	7.91|	可以流畅播放
-9	|playing|	ENOUGH_DATA|	0|	7.91|	7.91|	开始播放
-10	|progress|	ENOUGH_DATA|	0|	7.91|	7.91|	下载完毕
-11	|suspend|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-12	|timeupdate|	ENOUGH_DATA|	0.02|	7.91|	7.91|	播放进度变化
+4	|durationchange|	METADATA|	0|	-|	44.2|	获取到视频长度
+5	|loadedmetadata|	METADATA|	0|	-|	44.2|	获取到元数据
+6	|loadeddata|	ENOUGHDATA|	0|	-|	44.2|	-
+7	|canplay|	ENOUGH_DATA|	0|	44.2|	44.2|	-
+8	|canplaythrough|	ENOUGH_DATA|	0|	44.2|	44.2|	可以流畅播放
+9	|playing|	ENOUGH_DATA|	0|	44.2|	44.2|	开始播放
+10	|progress|	ENOUGH_DATA|	0|	44.2|	44.2|	下载完毕
+11	|suspend|	ENOUGH_DATA|	0|	44.2|	44.2|	-
+12	|timeupdate|	ENOUGH_DATA|	0.02|	44.2|	44.2|	播放进度变化
 …	|…|	…|	…|	…|	…|	…
-43	|timeupdate|	ENOUGH_DATA|	7.8|	7.91|	7.91|	-
-44	|timeupdate|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-45	|seeked|	ENOUGH_DATA|	0|	7.91|	7.91|	播放完毕进度回到起点
-46	|timeupdate|	ENOUGH_DATA|	0.22|	7.91|	7.91|	循环播放
+43	|timeupdate|	ENOUGH_DATA|	7.8|	44.2|	44.2|	-
+44	|timeupdate|	ENOUGH_DATA|	0|	44.2|	44.2|	-
+45	|seeked|	ENOUGH_DATA|	0|	44.2|	44.2|	播放完毕进度回到起点
+46	|timeupdate|	ENOUGH_DATA|	0.22|	44.2|	44.2|	循环播放
 …|	…|	…|	…|	…|	…|	…
 
 
@@ -223,25 +223,25 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 2	|play|	NOTHING|	0|	-|	-|	-
 3	|waiting|	NOTHING|	0|	0|	-|	-
 4	|durationchange|	ENOUGH_DATA|	0|	0|	0|	-
-5	|durationchange|	ENOUGH_DATA|	0|	0|	7.91|	获取到视频长度
-6	|loadedmetadata|	ENOUGH_DATA|	0|	0|	7.91|	获取到元数据
-7	|loadeddata|	ENOUGHDATA|	0|	0|	7.91|	-
-8	|canplay|	ENOUGH_DATA|	0|	0|	7.91|	-
-9	|canplaythrough|	ENOUGH_DATA|	0|	0|	7.91|	-
-10	|playing|	ENOUGH_DATA|	0|	0|	7.91|	-
-11	|timeupdate|	ENOUGH_DATA|	0|	0|	7.91|	-
-12	|progress|	ENOUGH_DATA|	0|	3.57|	7.91|	下载中
-13	|timeupdate|	ENOUGH_DATA|	0.2|	6.89|	7.91|	开始播放
-14	|progress|	ENOUGH_DATA|	0|	7.91|	7.91|	下载完毕
+5	|durationchange|	ENOUGH_DATA|	0|	0|	44.2|	获取到视频长度
+6	|loadedmetadata|	ENOUGH_DATA|	0|	0|	44.2|	获取到元数据
+7	|loadeddata|	ENOUGHDATA|	0|	0|	44.2|	-
+8	|canplay|	ENOUGH_DATA|	0|	0|	44.2|	-
+9	|canplaythrough|	ENOUGH_DATA|	0|	0|	44.2|	-
+10	|playing|	ENOUGH_DATA|	0|	0|	44.2|	-
+11	|timeupdate|	ENOUGH_DATA|	0|	0|	44.2|	-
+12	|progress|	ENOUGH_DATA|	0|	3.57|	44.2|	下载中
+13	|timeupdate|	ENOUGH_DATA|	0.2|	6.89|	44.2|	开始播放
+14	|progress|	ENOUGH_DATA|	0|	44.2|	44.2|	下载完毕
 …	|…|	…|	…|	…|	…|	…
-49	|timeupdate|	ENOUGH_DATA|	7.79|	7.91|	7.91|	-
-50	|progress|	ENOUGH_DATA|	7.87|	7.91|	7.91|	-
-51	|timeupdate|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-52	|seeking|	ENOUGH_DATA|	0|	7.91|	7.91|	播放完毕进度回到起点
+49	|timeupdate|	ENOUGH_DATA|	7.79|	44.2|	44.2|	-
+50	|progress|	ENOUGH_DATA|	7.87|	44.2|	44.2|	-
+51	|timeupdate|	ENOUGH_DATA|	0|	44.2|	44.2|	-
+52	|seeking|	ENOUGH_DATA|	0|	44.2|	44.2|	播放完毕进度回到起点
 53	|timeupdate|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-54	|seeked|	ENOUGH_DATA|	0|	7.91|	7.91|	循环播放失败卡住了
-55	|progress|	ENOUGH_DATA|	0|	7.91|	7.91|	-
-56	|stalled|	ENOUGH_DATA|	0|	7.91|	7.91|	-
+54	|seeked|	ENOUGH_DATA|	0|	44.2|	44.2|	循环播放失败卡住了
+55	|progress|	ENOUGH_DATA|	0|	44.2|	44.2|	-
+56	|stalled|	ENOUGH_DATA|	0|	44.2|	44.2|	-
 
 #### android weixin
 
