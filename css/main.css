@@ -309,7 +309,8 @@ article ul.reference-list li:before {
 .language-css .highlight .nl,
 .language-css .highlight .nn,
 .language-css .highlight .n,
-.language-css .highlight .nb{
+.language-css .highlight .nb,
+.language-css .highlight .py {
     color: #66d9ef;
 }
 
