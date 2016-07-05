@@ -275,14 +275,43 @@ article ul.reference-list li:before {
 }
 
 .language-shell pre.highlight{
-	background-color: #2d2d2d !important;
+	background-color: #222 !important;
 }
 
 .language-shell pre.highlight code {
-	background-color: #2d2d2d !important;
+	background-color: #222 !important;
 	font-size: 115%;
 	line-height: 115%;
 }
+
+.language-html pre.highlight{
+    background-color: #222 !important;
+}
+
+.language-html pre.highlight code {
+    background-color: #222 !important;
+    font-size: 115%;
+    line-height: 115%;
+}
+
+.language-css pre.highlight{
+    background-color: #222 !important;
+}
+
+.language-css pre.highlight code {
+    background-color: #222 !important;
+    font-size: 115%;
+    line-height: 115%;
+}
+
+.language-css .nl,
+.language-css .nn,
+.language-css .n,
+.language-css .nb,{
+    color: #66d9ef;
+}
+
+
 
 p code.highlighter-rouge {
     background-color: rgba(0, 0, 0, 0)
