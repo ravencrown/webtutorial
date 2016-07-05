@@ -1,10 +1,10 @@
----
+<!-- ---
 title: requestAnimationFrame
 layout: page
 category: htmlapi
 date: 2013-02-12
 modifiedOn: 2013-09-26
----
+--- -->
 
 ## 概述
 

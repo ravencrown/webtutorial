@@ -1,10 +1,10 @@
----
+<!-- ---
 title: Page Visibility API
 layout: page
 date: 2012-11-20
 category: htmlapi
 modifiedOn: 2013-09-26
----
+--- -->
 
 PageVisibility API用于判断页面是否处于浏览器的当前窗口，即是否可见。
 

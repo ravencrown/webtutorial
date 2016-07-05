@@ -1,10 +1,10 @@
----
+<!-- ---
 title: SSE：服务器发送事件
 layout: page
 category: htmlapi
 date: 2013-01-07
 modifiedOn: 2013-01-07
----
+--- -->
 
 ## 概述
 
