@@ -179,7 +179,7 @@ onwaiting|script|当媒介已停止播放但打算继续播放时（比如当媒
 55	|progress|	ENOUGH_DATA|	0|	7.91|	7.91|	-
 56	|stalled|	ENOUGH_DATA|	0|	7.91|	7.91|	-
 
-### 一些常用且需要重点关注的<video>事件
+### 一些常用且需要重点关注的事件
 
 play|	只是要播放视频，响应的是video.play()方法，并不代表已经开始播放 |和iOS一样，仅是响应video.play()方法
 durationchange|	会执行一次，一定会获取到视频的duration|	可能会执行多次，只有最后一次才能获取到真实的duration，前面的duration都是0；但低版本Android可能获取到的duration是0或1；（本文提到的低版本Android大部分是4.1以下）
@@ -194,7 +194,6 @@ stalled|	网络状况不佳，导致视频下载中断；|	在没有play之前�
 ### 属性差异
 
 attributes|	iOS|	android
-
 poster-封面图片|	支持，但是加载速度明显比在<img>中要慢；|	不一定支持（浏览器厂商的实现标准不统一）；
 preload-预加载|	iPhone不支持；|	可能支持；
 autoplay-自动播放|	iPhone Safari中不支持，但在webview中可能被开启；iOS开发文档明确说明蜂窝网络下不允许autoplay；|	可能支持；
@@ -204,7 +203,6 @@ width和height|	一定给出明确的属性设置，切不能为0；|	如果不�
 
 ### 其他怪异bug和不友好表现
 iOS|	android
-*********************************************************  \|	*********************************************************
 物理位置覆盖在<video>区域上的元素，click和touch等事件会失效，比如一个<a>链接如果覆盖在<video>上，那么点击后没有任何效果。|	-
 iOS8.0+中，单页面播放视频超过16个，再播放的视频全部MediaError解码异常无法播放。|	-
 iPhone的Safari会弹出一个全屏的播放器来播放视频，iPad则支持内联播放。iOS7+ 如果webview（比如微信）开启了webview.allowsInlineMediaPlayback = YES;，可以通过设置webkit-playsinline属性支持内联播放；|	支持内联播放，但某些厂商会用自己的播放器劫持原生的视频播放；
@@ -317,7 +315,7 @@ $(video).one('loadeddata', function() {
 })
 ```
 
-## 缓冲播放——边下边播时，选择开始播放的最佳时间点
+## 缓冲播放—边下边播时，选择开始播放的最佳时间点
 
 当视频越来越长或者网络慢时，等待视频全部下载完再播放也不是好的体验，最好能边下边播，缓冲到流畅状态就开始播放，那什么时候播放才是最佳时间点呢？  
 
