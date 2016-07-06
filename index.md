@@ -29,10 +29,11 @@ modifiedOn: 2016-06-20
 - [video元素](htmlapi/video.html)
 - [元素垂直居中](htmlapi/center-middle.html)
 - [侧边栏布局](htmlapi/sidebar.html)
+- [移动端触摸事件](htmlapi/touchevent.html)
 
 <h2 id="javascriptapi">JavaScript</h2>
 
-- [JS 算法](javascriptapi/algorithm.html)
+- [JS 算法](javascriptapi/algorithm.)
 
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
