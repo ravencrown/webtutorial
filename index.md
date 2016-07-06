@@ -30,6 +30,11 @@ modifiedOn: 2016-06-20
 - [元素垂直居中](htmlapi/center-middle.html)
 - [侧边栏布局](htmlapi/sidebar.html)
 
+<h2 id="javascriptapi">JavaScript</h2>
+
+- [JS 算法](javascriptapi/algorithm.html)
+
+
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)
 - [SVG图像](htmlapi/svg.html)

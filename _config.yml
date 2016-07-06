@@ -7,6 +7,7 @@ chapters:
 - introduction
 - nginx
 - htmlapi
+- javascriptapi
 - grammar
 - stdlib
 - oop
@@ -22,6 +23,7 @@ chapters:
 introduction: 导论
 nginx: Nginx
 htmlapi: HTML网页的API
+javascriptapi: JavaScript
 grammar: 基本语法
 stdlib: 标准库
 oop: 面向对象编程
