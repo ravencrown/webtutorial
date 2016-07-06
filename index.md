@@ -34,7 +34,7 @@ modifiedOn: 2016-06-20
 <h2 id="javascriptapi">JavaScript</h2>
 
 - [JS 算法](javascriptapi/algorithm.html)
-
+- [JS错误处理机制](javascriptapi/error.html)
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)
@@ -124,8 +124,6 @@ modifiedOn: 2016-06-20
 - [ECMAScript6介绍](advanced/ecmascript6.html)
 - [MVC模式和Backbone.js](advanced/backbonejs.html)
 - [严格模式](advanced/strict.html)
-
----
 
 <h2 id="library">废稿</h2>
 
