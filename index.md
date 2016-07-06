@@ -33,7 +33,7 @@ modifiedOn: 2016-06-20
 
 <h2 id="javascriptapi">JavaScript</h2>
 
-- [JS 算法](javascriptapi/algorithm.)
+- [JS 算法](javascriptapi/algorithm.html)
 
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
