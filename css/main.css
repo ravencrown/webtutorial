@@ -30,6 +30,10 @@ ol li {
     margin-bottom: 1.6
 }
 
+table {
+    width: 100%;
+}
+
 .top-bar,
 nav.top-bar li.name,
 nav.top-bar ul>li.has-dropdown .dropdown li.active a,
