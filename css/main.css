@@ -306,6 +306,17 @@ article ul.reference-list li:before {
     font-weight: 700;
 }
 
+.language-javascript pre.highlight{
+    background-color: #222 !important;
+}
+
+.language-javascript pre.highlight code {
+    background-color: #222 !important;
+    font-size: 115%;
+    line-height: 115%;
+    font-weight: 700;
+}
+
 .language-css .highlight .nl,
 .language-css .highlight .nn,
 .language-css .highlight .n,

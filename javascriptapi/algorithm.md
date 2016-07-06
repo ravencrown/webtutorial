@@ -104,6 +104,56 @@ var quickSort = function(arr) {
 };
 ```
 
+## String
+
+**字符串去重一**
+
+```javascript
+/**
+ * 字符串aaaabbccc的处理，处理结果为4a2b3c；
+ * 其中aaaa被处理成4a，映射规则为连续的字母a的数量，
+ * bb被处理为2b，ccc被处理为3c，整个字符串的处理结果为4a2b3c。
+ */
+
+function deRepeatStr(str) {
+    var json = {};
+    var len = str.length;
+    for (var i = 0; i < len; i++) {
+        if (!json[str.charAt(i)]) {
+            json[str.charAt(i)] = 1;
+        } else {
+            json[str.charAt(i)]++;
+        }
+    }
+
+    var result = "";
+    for (var i in json) {
+        result = result + json[i] + i;
+    }
+    return result;
+}
+
+/**
+ * 字符串aaabbbccc处理成 abc
+ */
+function dropRepeatStr(str) {
+    var json = {};
+    var len = str.length;
+    for (var i = 0; i < len; i++) {
+        if (!json[str.charAt(i)]) {
+            json[str.charAt(i)] = 1;
+        }
+    }
+    var result = "";
+    for (var i in json) {
+        result = result + i;
+    }
+    return result;
+}
+```
+
+
+
 ## 参考链接
 
 - LeetCode题解, [LeetCode题解](https://siddontang.gitbooks.io/leetcode-solution/content/)
