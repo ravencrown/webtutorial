@@ -12,24 +12,24 @@ modifiedOn: 2016-06-20
 
 <h2 id="nginx">Nginx</h2>
 
-- [Nginx的编译安装](nginx/install.html)
-- [虚拟主机配置](nginx/set-webhosting.html)
-- [日志管理](nginx/log.html)
-- [日志切割](nginx/cutting-log.html)
-- [Location语法](nginx/location.html)
-- [Location正则](nginx/regex.html)
-- [Rewrite](nginx/rewrite.html)
-- [Nginx+PHP的编译安装](nginx/phpinstall.html)
-- [Expires缓存设置](nginx/expires.html)
-- [Gzip配置](nginx/gzip.html)
-- [Nginx做负载均衡器以及proxy缓存配置](nginx/proxy.html)
+- [Nginx的编译安装](nginx/01-install.html)
+- [虚拟主机配置](nginx/02-set-webhosting.html)
+- [日志管理](nginx/03-log.html)
+- [日志切割](nginx/04-cutting-log.html)
+- [Location语法](nginx/05-location.html)
+- [Location正则](nginx/06-regex.html)
+- [Rewrite](nginx/07-rewrite.html)
+- [Nginx+PHP的编译安装](nginx/08-phpinstall.html)
+- [Expires缓存设置](nginx/09-expires.html)
+- [Gzip配置](nginx/10-gzip.html)
+- [Nginx做负载均衡器以及proxy缓存配置](nginx/11-proxy.html)
 
 <h2 id="htmlapi">HTML网页的API</h2>
 
-- [video元素](htmlapi/video.html)
-- [元素垂直居中](htmlapi/center-middle.html)
-- [侧边栏布局](htmlapi/sidebar.html)
-- [移动端触摸事件](htmlapi/touchevent.html)
+- [video元素](htmlapi/01-video.html)
+- [元素垂直居中](htmlapi/02-center-middle.html)
+- [侧边栏布局](htmlapi/03-sidebar.html)
+- [移动端触摸事件](htmlapi/04-touchevent.html)
 
 <h2 id="javascriptapi">JavaScript</h2>
 
@@ -51,7 +51,7 @@ modifiedOn: 2016-06-20
 - [WebRTC](htmlapi/webrtc.html)
 - [Web Components](htmlapi/webcomponents.html) -->
 
-<h2 id="grammar">基本语法</h2>
+<!-- <h2 id="grammar">基本语法</h2>
 
 - [概述](grammar/basic.html)
 - [数值](grammar/number.html)
@@ -168,7 +168,7 @@ modifiedOn: 2016-06-20
 - [OS模块](nodejs/os.html)
 - [Net模块和DNS模块](nodejs/net.html)
 - [Express框架](nodejs/express.html)
-- [Koa框架](nodejs/koa.html)
+- [Koa框架](nodejs/koa.html) -->
 
 {% comment %}
 

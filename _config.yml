@@ -8,30 +8,33 @@ chapters:
 - nginx
 - htmlapi
 - javascriptapi
-- grammar
-- stdlib
-- oop
-- dom
-- bom
-- jquery
-- tool
-- advanced
-- appendix
-- library
-- nodejs
+
+# - grammar
+# - stdlib
+# - oop
+# - dom
+# - bom
+# - jquery
+# - tool
+# - advanced
+# - appendix
+# - library
+# - nodejs
 
 introduction: 导论
 nginx: Nginx
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
-grammar: 基本语法
-stdlib: 标准库
-oop: 面向对象编程
-dom: DOM
-bom: 浏览器环境
-jquery: jQuery
-library: 草稿一：函数库
-nodejs: 草稿二：Node.js
-tool: 开发工具
-advanced: 高级语法
-appendix: 附录
+
+
+# grammar: 基本语法
+# stdlib: 标准库
+# oop: 面向对象编程
+# dom: DOM
+# bom: 浏览器环境
+# jquery: jQuery
+# library: 草稿一：函数库
+# nodejs: 草稿二：Node.js
+# tool: 开发工具
+# advanced: 高级语法
+# appendix: 附录
