@@ -275,43 +275,43 @@ article ul.reference-list li:before {
 }
 
 .language-shell pre.highlight{
-	background-color: #222 !important;
+	background-color: #333 !important;
 }
 
 .language-shell pre.highlight code {
-	background-color: #222 !important;
+	background-color: #333 !important;
 	font-size: 115%;
 	line-height: 115%;
 }
 
 .language-html pre.highlight{
-    background-color: #222 !important;
+    background-color: #333 !important;
 }
 
 .language-html pre.highlight code {
-    background-color: #222 !important;
+    background-color: #333 !important;
     font-size: 115%;
     line-height: 115%;
     font-weight: 700;
 }
 
 .language-css pre.highlight{
-    background-color: #222 !important;
+    background-color: #333 !important;
 }
 
 .language-css pre.highlight code {
-    background-color: #222 !important;
+    background-color: #333 !important;
     font-size: 115%;
     line-height: 115%;
     font-weight: 700;
 }
 
 .language-javascript pre.highlight{
-    background-color: #222 !important;
+    background-color: #333 !important;
 }
 
 .language-javascript pre.highlight code {
-    background-color: #222 !important;
+    background-color: #333 !important;
     font-size: 115%;
     line-height: 115%;
     font-weight: 700;

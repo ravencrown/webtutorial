@@ -1,5 +1,5 @@
 ---
-title: 
+title: JS 算法
 category: javascriptapi
 layout: page
 date: 2016-06-28
