@@ -75,7 +75,7 @@ canvas.addEventListener('touchmove', function(event) {
 - 移动端由于是手指操作而非鼠标，所以存在多点触控，即多根手指在屏幕上触发事件。不能通过e.clientX来获取单个点坐标。
 - 移动端 事件event中存在一个触控集合touches数组，通过取数组的第一个元素来获取坐标位置，即第一个触碰屏幕手指的坐标(e.touches[0].pageX , e.touches[0].pageY)。
 - 有时需要获取全部触碰点的位置，那就要循环数组了，逐个处理。
-- 有时要防止多点触碰，以及手指对屏幕进行缩放的影响，可以加入以上判断if(e.touches.length > 1 || e.scale && e.scale != 1)。
+- 有时要防止多点触碰，以及手指对屏幕进行缩放的影响，可以加入以上判断if(e.touches.length > 1 \|\| e.scale && e.scale != 1)。
 - touchend事件，代表手指离开屏幕，此时不存在触控，所以e.touches这个数组的长度为0，也就不能在touchend的处理函数中获取pageX属性了。
 
 ## 禁止缩放
