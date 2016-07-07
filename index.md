@@ -33,7 +33,8 @@ modifiedOn: 2016-06-20
 <h2 id="javascriptapi">JavaScript</h2>
 
 - [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
-- [错误处理机制](javascriptapi/02-error.html)
+- [深入理解函数表达式](javascriptapi/functionexpression.html)
+- [错误处理机制](javascriptapi/error.html)
 - [算法实例](javascriptapi/algorithm.html)
 
 <h2 id="mobileweb">移动 Web 开发</h2>
