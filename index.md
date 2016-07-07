@@ -33,8 +33,9 @@ modifiedOn: 2016-06-20
 
 <h2 id="javascriptapi">JavaScript</h2>
 
-- [JS 算法](javascriptapi/algorithm.html)
-- [JS错误处理机制](javascriptapi/error.html)
+- [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
+- [算法实例](javascriptapi/algorithm.html)
+- [错误处理机制](javascriptapi/02-error.html)
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)
