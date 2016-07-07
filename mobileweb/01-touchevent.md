@@ -1,6 +1,6 @@
 ---
 title: 移动端触摸事件
-category: htmlapi
+category: mobileweb
 layout: page
 date: 2016-06-28
 modifiedOn: 2016-06-28

@@ -365,7 +365,7 @@ for (i in man) if (hasOwn.call(man, i)) { // 过滤
 ```
 
 
-## （不）扩展内置原型
+## (不)扩展内置原型
 
 扩增构造函数的`prototype`属性是个很强大的增加功能的方法，但有时候它太强大了。  
   
@@ -406,6 +406,42 @@ if (zero == false) {
 ```
 
 还有另外一种思想观点认为==就足够了===是多余的。例如，当你使用typeof你就知道它会返回一个字符串，所以没有使用严格相等的理由。然而，JSLint要求严格相等，它使代码看上去更有一致性，可以降低代码阅读时的精力消耗。（“==是故意的还是一个疏漏？”）
+
+## parseInt()下的数值转换
+
+使用parseInt()你可以从字符串中获取数值，该方法接受另一个基数参数，这经常省略，但不应该。当字符串以”0″开头的时候就有可能会出问题，例如，部分时间进入表单域，在ECMAScript 3中，开头为”0″的字符串被当做8进制处理了，但这已在ECMAScript 5中改变了。为了避免矛盾和意外的结果，总是指定基数参数。
+
+```javascript
+var month = "06",
+    year = "09";
+month = parseInt(month, 10);
+year = parseInt(year, 10);
+```
+
+此例中，如果你忽略了基数参数，如`parseInt(year)`，返回的值将是0，因为“09”被当做8进制（好比执行 `parseInt( year, 8 )）`，而09在8进制中不是个有效数字。
+
+替换方法是将字符串转换成数字，包括：
+
+```javascript
++"08" // 结果是 8
+Number("08") // 8
+```
+
+这些通常快于`parseInt()`，因为`parseInt()`方法，顾名思意，不是简单地解析与转换。但是，如果你想输入例如“08 hello”，parseInt()将返回数字，而其它以NaN告终。
+
+## 编码规范(Coding Conventions)
+
+本节参考腾讯AlloyTeam的 [团队规范文档](http://alloyteam.github.io/CodeGuide/),是由AlloyTeam通过分析github代码库总结出来的工程师书写习惯
+
+
+## 参考链接
+
+- AlloyTeam, [前端团队规范文档](https://github.com/AlloyTeam/CodeGuide)
+
+
+
+
+
 
 
 

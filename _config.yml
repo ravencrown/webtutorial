@@ -8,6 +8,7 @@ chapters:
 - nginx
 - htmlapi
 - javascriptapi
+- mobileweb
 
 # - grammar
 # - stdlib
@@ -25,7 +26,7 @@ introduction: 导论
 nginx: Nginx
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
-
+mobileweb: 移动 Web 开发
 
 # grammar: 基本语法
 # stdlib: 标准库
