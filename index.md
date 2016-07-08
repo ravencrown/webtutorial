@@ -10,6 +10,31 @@ modifiedOn: 2016-06-20
 - [导论](introduction/intro.html)
 - [JavaScript的历史](introduction/history.html)
 
+
+<h2 id="dom">DOM</h2>
+
+- [Node节点](dom/01-node.html)
+
+
+<h2 id="htmlapi">HTML网页的API</h2>
+
+- [video元素](htmlapi/01-video.html)
+- [元素垂直居中](htmlapi/02-center-middle.html)
+- [侧边栏布局](htmlapi/03-sidebar.html)
+
+
+<h2 id="javascriptapi">JavaScript</h2>
+
+- [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
+- [深入理解函数表达式](javascriptapi/functionexpression.html)
+- [错误处理机制](javascriptapi/error.html)
+- [算法实例](javascriptapi/algorithm.html)
+
+<h2 id="mobileweb">移动 Web 开发</h2>
+
+- [移动端触摸事件](mobileweb/01-touchevent.html)
+
+
 <h2 id="nginx">Nginx</h2>
 
 - [Nginx的编译安装](nginx/01-install.html)
@@ -23,24 +48,6 @@ modifiedOn: 2016-06-20
 - [Expires缓存设置](nginx/09-expires.html)
 - [Gzip配置](nginx/10-gzip.html)
 - [Nginx做负载均衡器以及proxy缓存配置](nginx/11-proxy.html)
-
-<h2 id="htmlapi">HTML网页的API</h2>
-
-- [video元素](htmlapi/01-video.html)
-- [元素垂直居中](htmlapi/02-center-middle.html)
-- [侧边栏布局](htmlapi/03-sidebar.html)
-
-<h2 id="javascriptapi">JavaScript</h2>
-
-- [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
-- [深入理解函数表达式](javascriptapi/functionexpression.html)
-- [错误处理机制](javascriptapi/error.html)
-- [算法实例](javascriptapi/algorithm.html)
-
-<h2 id="mobileweb">移动 Web 开发</h2>
-
-- [移动端触摸事件](mobileweb/01-touchevent.html)
-
 
 <!-- - [HTML网页元素](htmlapi/elements.html)
 - [Canvas](htmlapi/canvas.html)

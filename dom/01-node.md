@@ -2,8 +2,8 @@
 title: Node节点
 layout: page
 category: dom
-date: 2013-10-07
-modifiedOn: 2014-05-18
+date: 2016-06-29
+modifiedOn: 2016-06-29
 ---
 
 ## DOM的概念

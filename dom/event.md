@@ -1,11 +1,11 @@
----
+<!-- ---
 title: Event对象
 layout: page
 category: dom
 date: 2013-11-15
 modifiedOn: 2013-12-19
 ---
-
+ -->
 事件是一种异步编程的实现方式，本质上是程序各个组成部分之间的通信。DOM支持大量的事件，本节介绍DOM的事件编程。
 
 ## EventTarget接口
