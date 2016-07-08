@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Element对象
 category: dom
 layout: page
-date: 2015-04-15
-modifiedOn: 2015-04-15
---- -->
+date: 2016-07-01
+modifiedOn: 2016-07-01
+--- 
 
 Element对象对应网页的HTML标签元素。每一个HTML标签元素，在DOM树上都会转化成一个Element节点对象（以下简称元素节点）。
 
@@ -657,3 +657,9 @@ el.scrollIntoView(false);
 ```
 
 该方法可以接受一个布尔值作为参数。如果为true，表示元素的顶部与当前区域的可见部分的顶部对齐（前提是当前区域可滚动）；如果为false，表示元素的底部与当前区域的可见部分的尾部对齐（前提是当前区域可滚动）。如果没有提供该参数，默认为true。
+
+
+## 参考链接
+
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/element.html)
+

@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: document节点
 layout: page
 category: dom
-date: 2014-05-18
-modifiedOn: 2014-05-18
---- -->
+date: 2016-06-30
+modifiedOn: 2016-06-30
+---
 
 ## document节点概述
 
@@ -792,4 +792,7 @@ var event = new Event('click');
 document.dispatchEvent(event);
 ```
 
+## 参考链接
+
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/document.html)
 

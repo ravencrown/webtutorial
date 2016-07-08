@@ -1,11 +1,11 @@
-<!-- ---
+---
 title: Event对象
 layout: page
 category: dom
-date: 2013-11-15
-modifiedOn: 2013-12-19
+date: 2016-07-01
+modifiedOn: 2016-07-01
 ---
- -->
+
 事件是一种异步编程的实现方式，本质上是程序各个组成部分之间的通信。DOM支持大量的事件，本节介绍DOM的事件编程。
 
 ## EventTarget接口
@@ -1520,12 +1520,13 @@ var link = event.dataTransfer.getData("URL");
 
 ```javascript
 function doDrop(event){
-  var types = event.dataTransfer.types;
-  var supportedTypes = ["text/uri-list", "text/plain"];
-  types = supportedTypes.filter(function (value) types.includes(value));
-  if (types.length)
-    var data = event.dataTransfer.getData(types[0]);
-  event.preventDefault();
+    var types = event.dataTransfer.types;
+    var supportedTypes = ["text/uri-list", "text/plain"];
+    types = supportedTypes.filter(function (value) types.includes(value));
+    if (types.length) {
+        var data = event.dataTransfer.getData(types[0]);
+    }
+    event.preventDefault();
 }
 ```
 
@@ -1557,6 +1558,7 @@ div.addEventListener("dragstart", function(e) {
   img.src = "http://path/to/img";
   e.dataTransfer.setDragImage(img, 0, 0);
 }, false);
+
 ```
 
 ## 触摸事件
@@ -2249,3 +2251,4 @@ e.initUIEvent("click", true, true, window, 1);
 - Mozilla Developer Network, [Using Firefox 1.5 caching](https://developer.mozilla.org/en-US/docs/Using_Firefox_1.5_caching)
 - Craig Buckler, [How to Capture CSS3 Animation Events in JavaScript](http://www.sitepoint.com/css3-animation-javascript-event-handlers/)
 - Ray Nicholus, [You Don't Need jQuery!: Events](http://blog.garstasio.com/you-dont-need-jquery/events/)
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/event.html)

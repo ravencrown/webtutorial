@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: CSS操作
 layout: page
 category: dom
-date: 2013-07-05
-modifiedOn: 2014-01-31
---- -->
+date: 2016-07-01
+modifiedOn: 2016-07-01
+---
 
 CSS与JavaScript是两个有着明确分工的领域，前者负责页面的视觉效果，后者负责与用户的行为互动。但是，它们毕竟同属网页开发的前端，因此不可避免有着交叉和互相配合。本节介绍如果通过JavaScript操作CSS。
 
@@ -723,3 +723,4 @@ element.style.webkitAnimationPlayState = "running";
 - Ryan Morr, [Detecting CSS Style Support](http://ryanmorr.com/detecting-css-style-support/)
 - Mozilla Developer Network, [Testing media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Testing_media_queries)
 - Robert Nyman, [Using window.matchMedia to do media queries in JavaScript](https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/)
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/css.html)

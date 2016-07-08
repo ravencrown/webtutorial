@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Text节点和DocumentFragment节点
 category: dom
 layout: page
-date: 2015-05-01
-modifiedOn: 2015-05-01
---- -->
+date: 2016-07-01
+modifiedOn: 2016-07-01
+---
 
 ## Text节点的概念
 
@@ -217,3 +217,9 @@ DocumentFragment节点对象没有自己的属性和方法，全部继承自Node
 - childElementCount：返回当前DocumentFragment对象的所有子元素数量。
 
 另外，Node节点的所有方法，都接受DocumentFragment节点作为参数（比如Node.appendChild、Node.insertBefore）。这时，DocumentFragment的子节点（而不是DocumentFragment节点本身）将插入当前节点。
+
+## 参考链接
+
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/text.html)
+
+

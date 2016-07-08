@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Mutation Observer
 category: dom
 layout: page
-date: 2013-09-16
-ModifiedOn: 2013-09-16
---- -->
+date: 2016-07-01
+ModifiedOn: 2016-07-01
+---
 
 ## 概述
 
@@ -254,3 +254,4 @@ ready('.foo', function(element){
 - Jeff Griffiths, [DOM MutationObserver – reacting to DOM changes without killing browser performance](https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/)
 - Addy Osmani, [Detect, Undo And Redo DOM Changes With Mutation Observers](http://addyosmani.com/blog/mutation-observers/)
 - Ryan Morr, [Using Mutation Observers to Watch for Element Availability](http://ryanmorr.com/using-mutation-observers-to-watch-for-element-availability/)
+- 阮一峰, [原文出处](http://javascript.ruanyifeng.com/dom/mutationobserver.html)
