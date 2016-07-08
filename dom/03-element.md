@@ -208,11 +208,9 @@ className属性用来读取和设置当前元素的class属性。它的值是一
 
 classList属性则返回一个类似数组的对象，当前元素节点的每个class就是这个对象的一个成员。
 
-{% highlight html %}
-
+```javascript
 <div class="one two three" id="myDiv"></div>
-
-{% endhighlight %}
+```
 
 上面这个div元素的节点对象的className属性和classList属性，分别如下。
 

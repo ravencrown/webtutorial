@@ -400,7 +400,7 @@ world
 
 `document.writeln`方法与`write`方法完全一致，除了会在输出内容的尾部添加换行符。
 
-```js
+```javascript
 document.write(1);
 document.write(2);
 // 12
