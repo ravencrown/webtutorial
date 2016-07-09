@@ -9,6 +9,7 @@ chapters:
 - htmlapi
 - javascriptapi
 - mobileweb
+- tool
 - nginx
 
 # - grammar
@@ -27,6 +28,7 @@ dom: DOM
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
 mobileweb: 移动 Web 开发
+tool: 开发工具
 nginx: Nginx
 
 
@@ -37,6 +39,5 @@ nginx: Nginx
 # jquery: jQuery
 # library: 草稿一：函数库
 # nodejs: 草稿二：Node.js
-# tool: 开发工具
 # advanced: 高级语法
 # appendix: 附录

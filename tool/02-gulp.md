@@ -314,3 +314,4 @@ gulp.task('less', function() {
 ## 参考链接
 
 - Callum Macrae, [Building With Gulp](http://www.smashingmagazine.com/2014/06/11/building-with-gulp/)
+- 原文出处, [Gulp：任务自动管理工具](http://javascript.ruanyifeng.com/tool/gulp.html)

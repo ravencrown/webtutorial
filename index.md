@@ -39,6 +39,10 @@ modifiedOn: 2016-06-20
 
 - [移动端触摸事件](mobileweb/01-touchevent.html)
 
+<h2 id="tool">开发工具</h2>
+
+- [console对象](tool/console.html)
+- [Gulp：任务自动管理工具](tool/gulp.html)
 
 <h2 id="nginx">Nginx</h2>
 
