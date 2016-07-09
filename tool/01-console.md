@@ -2,8 +2,8 @@
 title: console对象
 layout: page
 category: tool
-date: 2013-03-10
-modifiedOn: 2013-12-03
+date: 2016-07-02
+modifiedOn: 2016-07-02
 ---
 
 `console`对象是JavaScript的原生对象，它有点像Unix系统的标准输出`stdout`和标准错误`stderr`，可以输出各种信息用来调试程序，而且还提供了很多额外的方法，供开发者调用。它的常见用途有两个。
@@ -380,14 +380,12 @@ console.clear方法用于清除当前控制台的所有输出，将光标回置�
 
 $_属性返回上一个表达式的值。
 
-{% highlight javascript %}
-
+```javascript
 2+2
 // 4
 $_
 // 4
-
-{% endhighlight %}
+```
 
 （2）$0 - $4
 

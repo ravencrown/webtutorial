@@ -41,8 +41,8 @@ modifiedOn: 2016-06-20
 
 <h2 id="tool">开发工具</h2>
 
-- [console对象](tool/console.html)
-- [Gulp：任务自动管理工具](tool/gulp.html)
+- [console对象](tool/01-console.html)
+- [Gulp：任务自动管理工具](tool/02-gulp.html)
 
 <h2 id="nginx">Nginx</h2>
 
