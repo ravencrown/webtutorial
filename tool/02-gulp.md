@@ -12,7 +12,7 @@ Gulp与Grunt一样，也是一个自动任务运行器。它充分借鉴了Unix�
 
 Gulp需要全局安装，然后再在项目的开发目录中安装为本地模块。先进入项目目录，运行下面的命令。
 
-```bash
+```shell
 
 npm install -g gulp
 
@@ -22,7 +22,7 @@ npm install --save-dev gulp
 
 除了安装gulp以外，不同的任务还需要安装不同的gulp插件模块。举例来说，下面代码安装了gulp-uglify模块。
 
-```bash
+```shell
 $ npm install --save-dev gulp-uglify
 ```
 
@@ -49,7 +49,7 @@ task方法的回调函数使用了两次pipe方法，也就是说做了两种处
 
 执行minify任务时，就在项目目录中执行下面命令就可以了。
 
-```bash
+```shell
 $ gulp minify
 ```
 
