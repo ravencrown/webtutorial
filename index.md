@@ -43,6 +43,7 @@ modifiedOn: 2016-06-20
 
 - [console对象](tool/01-console.html)
 - [Gulp：任务自动管理工具](tool/02-gulp.html)
+- [grunt: 任务自动管理工具](tool/03-grunt.html)
 
 <h2 id="nginx">Nginx</h2>
 
