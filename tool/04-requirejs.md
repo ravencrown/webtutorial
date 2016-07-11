@@ -43,9 +43,9 @@ define({
 
 ```javascript
 define(function () {
-	return {
-	    method1: function() {},
-		method2: function() {},
+    return {
+        method1: function() {},
+        method2: function() {},
     };
 });
 ```
@@ -60,7 +60,7 @@ define(function () {
 
 ```javascript
 define(['module1', 'module2'], function(m1, m2) {
-   ...
+    ...
 });
 ```
 
@@ -74,7 +74,7 @@ define(['module1', 'module2'], function(m1, m2) {
     return {
         method: function() {
             m1.methodA();
-			m2.methodB();
+            m2.methodB();
         }
     };
 
@@ -89,7 +89,7 @@ define(['module1', 'module2'], function(m1, m2) {
 
 ```javascript
 define(
-    [       'dep1', 'dep2', 'dep3', 'dep4', 'dep5', 'dep6', 'dep7', 'dep8'],
+    ['dep1', 'dep2', 'dep3', 'dep4', 'dep5', 'dep6', 'dep7', 'dep8'],
     function(dep1,   dep2,   dep3,   dep4,   dep5,   dep6,   dep7,   dep8){
         ...
     }
@@ -121,7 +121,7 @@ define(
 ```javascript
 define(['math', 'graph'], 
     function ( math, graph ) {
-		return {
+        return {
             plot: function(x, y){
                 return graph.drawPie(math.randomGrid(x,y));
             }
@@ -148,7 +148,7 @@ require方法用于调用模块。它的参数与define方法类似。
 
 ```javascript
 require(['foo', 'bar'], function ( foo, bar ) {
-        foo.doSomething();
+    foo.doSomething();
 });
 ```
 
