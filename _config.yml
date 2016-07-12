@@ -5,6 +5,7 @@ sitename: Web 开发博客
 
 chapters:
 - introduction
+- css
 - dom
 - htmlapi
 - javascriptapi
@@ -24,6 +25,7 @@ chapters:
 # - nodejs
 
 introduction: 导论
+css: CSS布局
 dom: DOM
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
