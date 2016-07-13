@@ -144,6 +144,31 @@ Element Height = content Height(Height包含了元素内容宽度，边框宽度
 Element Width = content Width(Width包含了元素内容宽度、边框宽度、内距宽度)
 ```
 
+## position
+
+为了制作更多复杂的布局，我们需要讨论下 position 属性。它有一大堆的值，名字还都特抽象，别提有多难记了。让我们先一个个的过一遍，不过你最好还是把这页放到书签里。
+
+- static：static 是默认值。任意 position: static; 的元素不会被特殊的定位。一个 static 元素表示它不会被“positioned”，一个 position 属性被设置为其他值的元素表示它会被“positioned”。
+- relative：relative 表现的和 static 一样，除非你添加了一些额外的属性。在一个相对定位（position属性的值为relative）的元素上设置 top 、 right 、 bottom 和 left 属性会使其偏离其正常位置。其他的元素则不会调整位置来弥补它偏离后剩下的空隙。
+- absolute：absolute 是最棘手的position值。 absolute 与 fixed 的表现类似，除了它不是相对于视窗而是相对于最近的“positioned”祖先元素。如果绝对定位（position属性的值为absolute）的元素没有“positioned”祖先元素，那么它是相对于文档的 body 元素，并且它会随着页面滚动而移动。记住一个“positioned”元素是指p osition 值不是 static 的元素。
+- fixed：一个固定定位（position属性的值为fixed）元素会相对于视窗来定位，这意味着即便页面滚动，它还是会停留在相同的位置。和 relative 一样， top 、 right 、 bottom 和 left 属性都可用。但是移动浏览器对fixed支持很差，[解决方案](http://bradfrost.com/blog/mobile/fixed-position/)
+
+## 浮动与清除浮动
+
+## 响应式布局-媒体查询
+
+## 弹性布局
+
+## table-cell布局
+
+## 浮动布局
+
+
+
+
+
+
+
 
 
 
