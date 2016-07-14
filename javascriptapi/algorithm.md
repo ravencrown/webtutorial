@@ -26,6 +26,7 @@ function isArrayfn(value) {
 } 
 ```
 
+
 **在一个数组里面移除指定value**
 
 ```javascript
@@ -201,6 +202,29 @@ function dropRepeatStr(str) {
 }
 ```
 
+**判断字符串是否是回文**
+
+```javascript
+// 回文就是指一个单词，数组，短语，从前往后从后往前都是一样的 12321.abcba
+// 回文最简单的思路就是, 把元素反转后如果与原始的元素相等，那么就意味着这就是一个回文了
+function isPalindrome(word) {
+
+    if (word.length = 0) {
+        return 
+    }
+    var arr = word.split(""),
+        rword = "";
+    while(arr.length > 0) {
+        rword += arr.pop();
+    }
+
+    if (word == rword) {
+        return true;
+    } else {
+        return false;
+    }
+}
+```
 
 
 ## 参考链接
