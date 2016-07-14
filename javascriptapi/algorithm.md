@@ -226,6 +226,144 @@ function isPalindrome(word) {
 }
 ```
 
+## 栈
+
+特殊的列表，栈内的元素只能通过列表的一端访问，栈顶后入先出(LIFO,last-in-first-out)的数据结构  
+
+javascript提供可操作的方法, 入栈 push, 出栈 pop，但是pop会移掉栈中的数据  
+
+- 实现一个栈的实现类
+- 底层存数数据结构采用 数组
+- 因为pop是删除栈中数据，所以需要实现一个查找方法 peek
+- 实现一个清理方法 clear
+- 栈内元素总量查找 length
+- 查找是否还存在元素 empty
+
+```javascript
+function Stack(){
+    this.dataStore = []
+    this.top    = 0;
+    this.push   = push
+    this.pop    = pop
+    this.peek   = peek
+    this.length = length;
+}
+
+function push(element){
+    this.dataStore[this.top++] = element;
+}
+
+function peek(element){
+    return this.dataStore[this.top-1];
+}
+
+function pop(){
+    return this.dataStore[--this.top];
+}
+
+function clear(){
+    this.top = 0
+}
+
+function length(){
+    return this.top
+}
+```
+
+利用栈实现阶乘
+
+```javascript
+// 方法一
+function fact(n) {
+    var s = new Stack()
+    while (n > 1) {
+        //[5,4,3,2]
+        s.push(n--);
+    }
+    var product = 1;
+    while (s.length() > 0) {
+        product *= s.pop();
+    }
+    return product;
+}
+
+// 方法二
+
+function fact(n) {
+
+    var arr = [],
+        product = 1;
+    while (n > 1) {
+        arr.push(n--);
+    }
+
+    while (arr.length > 0) {
+        product *= arr.pop();
+    }
+
+    return product;
+}
+```
+
+## 队列
+
+队列是只允许在一端进行插入操作，另一个进行删除操作的线性表，队列是一种先进先出（First-In-First-Out，FIFO）的数据结构  
+
+队列本来也是一种特殊的线性表，在JavaScript我们可以直接使用数组实现这样的一个设计，数组的push()方法可以在数组末尾加入元素，shift()方法则可删除数组的第一个元素。  
+
+```javascript
+function Queue() {
+    this.dataStore = [];
+    this.enqueue   = enqueue;
+    this.dequeue   = dequeue;
+    this.first     = first;
+    this.end       = end;
+    this.toString  = toString;
+    this.empty     = empty;
+}
+
+// enqueue()方法向队尾添加一个元素
+function enqueue(element) {
+    this.dataStore.push(element);
+}
+
+// dequeue()方法删除队首的元素：
+function dequeue() {
+    return this.dataStore.shift();
+}
+
+// 可以使用如下方法读取队首和队尾的元素
+
+function first() {
+    return this.dataStore[0];
+}
+
+function end() {
+    return this.dataStore[this.dataStore.length - 1];
+}
+
+// toString()方法显示队列内的所有元素 
+
+function toString() {
+    var retStr = "";
+    for (var i = 0; i < this.dataStore.length; ++i) {
+        retStr += this.dataStore[i] + "\n";
+    }
+    return retStr;
+}
+
+// 需要一个方法判断队列是否为空 
+function empty() {
+    if (this.dataStore.length == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+```
+
+
 
 ## 参考链接
 
