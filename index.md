@@ -38,6 +38,7 @@ modifiedOn: 2016-06-20
 - [深入理解函数表达式](javascriptapi/functionexpression.html)
 - [错误处理机制](javascriptapi/error.html)
 - [算法实例](javascriptapi/algorithm.html)
+- [js排序算法](javascriptapi/sort.html)
 
 <h2 id="mobileweb">移动 Web 开发</h2>
 
