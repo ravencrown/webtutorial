@@ -179,8 +179,9 @@ function selectSort(array) {
 ## 参考链接
 
 - 阮一峰快速排序, [快速排序](http://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html)
-
-
+- 排序图解：js排序算法实现, [排序图解：js排序算法实现](http://www.jianshu.com/p/7e6589306a27)
+- 秒杀9种排序算法(JavaScript版), [秒杀9种排序算法(JavaScript版)](http://www.cnblogs.com/JChen666/p/3360853.html)
+- 各种排序算法的稳定性和时间复杂度小结, [各种排序算法的稳定性和时间复杂度小结](http://blog.csdn.net/hkx1n/article/details/3922249)
 
 
 
