@@ -79,6 +79,7 @@ function bisectionSort(array) {
 很常见很容易理解的排序算法，排序思路：遍历数组，每次遍历就将最大（或最小）值推至最前。越往后遍历查询次数越少， 跟插入排序刚好相反。
 
 **原理图**
+
 ![img3](http://upload-images.jianshu.io/upload_images/615809-709b27ca8b041a7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
