@@ -10,6 +10,7 @@ chapters:
 - htmlapi
 - javascriptapi
 - mobileweb
+- angularjs
 - tool
 - nginx
 
@@ -30,6 +31,7 @@ dom: DOM
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
 mobileweb: 移动 Web 开发
+angularjs: angularjs
 tool: 开发工具
 nginx: Nginx
 

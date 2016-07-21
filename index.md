@@ -45,6 +45,10 @@ modifiedOn: 2016-06-20
 - [移动端触摸事件](mobileweb/01-touchevent.html)
 - [H5前端性能优化指南](mobileweb/02-optimization.html)
 
+<h2 id="angularjs">AngularJS</h2>
+
+- [AngularJS 入门](angular/base.html)
+
 <h2 id="tool">开发工具</h2>
 
 - [console对象](tool/01-console.html)
