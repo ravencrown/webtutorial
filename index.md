@@ -49,6 +49,7 @@ modifiedOn: 2016-06-20
 
 - [AngularJS 入门](angular/base.html)
 - [HTML编译器](angular/compiler.html)
+- [核心概览](angular/)
 
 <h2 id="tool">开发工具</h2>
 
