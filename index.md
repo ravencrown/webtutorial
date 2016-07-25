@@ -48,6 +48,7 @@ modifiedOn: 2016-06-20
 <h2 id="angularjs">AngularJS</h2>
 
 - [AngularJS 入门](angular/base.html)
+- [HTML编译器](angular/compiler.html)
 
 <h2 id="tool">开发工具</h2>
 
