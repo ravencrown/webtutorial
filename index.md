@@ -14,7 +14,8 @@ modifiedOn: 2016-06-20
 
 - [CSS基本属性](cssguide/01-base.html)
 - [CSS3](cssguide/02-css3.html)
-- [SASS入门](cssguide/03-sass.html)
+- [Sass入门](cssguide/03-sass.html)
+- [Less入门](cssguide/04-less.html)
 
 <h2 id="dom">DOM</h2>
 
