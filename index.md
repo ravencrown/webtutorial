@@ -39,6 +39,7 @@ modifiedOn: 2016-06-20
 - [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
 - [深入理解函数表达式](javascriptapi/02-functionexpression.html)
 - [错误处理机制](javascriptapi/03-error.html)
+- [JS 中的事件设计](javascriptapi/04-jsevent.html)
 - [算法实例](javascriptapi/algorithm.html)
 - [js排序算法](javascriptapi/sort.html)
 
