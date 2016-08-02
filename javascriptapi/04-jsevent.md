@@ -25,12 +25,12 @@ javascript给DOM绑定事件处理函数总的来说有2种方式：在html文�
 ```html
 <script>
 
-	function buttonHandler(thisDom)
-	{
-		alert(this.id);//undefined
-		alert(thisDom.id);//outestA
-		return false;
-	}
+function buttonHandler(thisDom)
+{
+    alert(this.id);//undefined
+    alert(thisDom.id);//outestA
+    return false;
+}
 </script>
 <div id="outestA" onclick="return buttonHandler(this);"></div>
 ```
@@ -150,15 +150,14 @@ function a()
 
 ```html
 <script>
-	window.onload = function(){
-	<span style="white-space:pre">	</span>var outA = document.getElementById("outA");  
-		outA.addEventListener('click',function(){alert(1);},false);
-		outA.addEventListener('click',function(){alert(2);},true);
-		outA.addEventListener('click',function(){alert(3);},true);
-		outA.addEventListener('click',function(){alert(4);},true);
-	};
+window.onload = function(){
+    var outA = document.getElementById("outA");  
+    outA.addEventListener('click',function(){alert(1);},false);
+    outA.addEventListener('click',function(){alert(2);},true);
+    outA.addEventListener('click',function(){alert(3);},true);
+    outA.addEventListener('click',function(){alert(4);},true);
+};
 </script>
-
 <body>
 	<div id="outA" style="width:400px; height:400px; background:#CDC9C9;position:relative;">
 	</div>
@@ -174,9 +173,9 @@ function a()
 
 ```html
 <div id="outA" style="width:400px; height:400px; background:#CDC9C9;position:relative;">
-	<div id="outB" style="height:200; background:#0000ff;top:100px;position:relative;">
-		<div id="outC" style="height:100px; background:#FFB90F;top:50px;position:relative;"></div> 
-	</div>
+    <div id="outB" style="height:200; background:#0000ff;top:100px;position:relative;">
+        <div id="outC" style="height:100px; background:#FFB90F;top:50px;position:relative;"></div> 
+    </div>
 </div>
 ```
 
@@ -186,26 +185,23 @@ function a()
 
 ```html
 <script>
+window.onload = function(){
+    var outA = document.getElementById("outA");  
+    var outB = document.getElementById("outB");  
+    var outC = document.getElementById("outC");  
 
-	window.onload = function(){
-		var outA = document.getElementById("outA");  
-		var outB = document.getElementById("outB");  
-		var outC = document.getElementById("outC");  
-		
-		// 使用事件冒泡
-		outA.addEventListener('click',function(){alert(1);},false);
-		outB.addEventListener('click',function(){alert(2);},false);
-		outC.addEventListener('click',function(){alert(3);},false);
-	};
- 
+    // 使用事件冒泡
+    outA.addEventListener('click',function(){alert(1);},false);
+    outB.addEventListener('click',function(){alert(2);},false);
+    outC.addEventListener('click',function(){alert(3);},false);
+};
 </script>
-
 <body>
-	<div id="outA" style="width:400px; height:400px; background:#CDC9C9;position:relative;">
-		<div id="outB" style="height:200; background:#0000ff;top:100px;position:relative;">
-			<div id="outC" style="height:100px; background:#FFB90F;top:50px;position:relative;"></div> 
-		</div>
-	</div>
+<div id="outA" style="width:400px; height:400px; background:#CDC9C9;position:relative;">
+    <div id="outB" style="height:200; background:#0000ff;top:100px;position:relative;">
+        <div id="outC" style="height:100px; background:#FFB90F;top:50px;position:relative;"></div> 
+    </div>
+</div>
 </body>
 ```
 
