@@ -37,8 +37,8 @@ modifiedOn: 2016-06-20
 <h2 id="javascriptapi">JavaScript</h2>
 
 - [高质量JavaScript代码的基本要点](javascriptapi/01-maintainablecode.html)
-- [深入理解函数表达式](javascriptapi/functionexpression.html)
-- [错误处理机制](javascriptapi/error.html)
+- [深入理解函数表达式](javascriptapi/02-functionexpression.html)
+- [错误处理机制](javascriptapi/03-error.html)
 - [算法实例](javascriptapi/algorithm.html)
 - [js排序算法](javascriptapi/sort.html)
 
@@ -51,7 +51,7 @@ modifiedOn: 2016-06-20
 
 - [AngularJS 入门](angular/base.html)
 - [HTML编译器](angular/compiler.html)
-- [核心概览](angular/)
+- [核心概览](angular/core.html)
 
 <h2 id="tool">开发工具</h2>
 
