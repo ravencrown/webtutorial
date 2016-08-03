@@ -169,9 +169,32 @@ if (!this.hasOwnProperty('myObj')) {
 ```
 
 
+## 判断变量为何种类型
+
+```javascript
+
+Object.prototype.toString.call(val) == '[object Array]'         // Array对象
+Object.prototype.toString.call(val) == '[object Number]'        // Number对象
+Object.prototype.toString.call(val) == '[object String]'        // String对象
+Object.prototype.toString.call(val) == '[object Null]'          // null对象
+Object.prototype.toString.call(val) == '[object Undefined]'     // undefined
+Object.prototype.toString.call(val) == '[object Boolean]'       // 布尔类型
+Object.prototype.toString.call(val) == '[object Object]'        // 对象类型
+
+```
+
+## 总结
 
 
+- 如果只判断对象是否存在，推荐使用第五种写法。
+- 如果除了对象是否存在，还要判断对象是否有null值，推荐使用第一种写法。
+- 除非特殊情况，所有变量都应该使用var命令声明。
+- 为了跨平台，建议避免使用window表示顶层对象。
+- 在Javascript语言中，null和undefined容易产生混淆。在可能同时涉及两者的情况下，建议使用"精确比较"运算符（===）。
 
+## 参考链接
+
+- 阮一峰, [如何判断Javascript对象是否存在](http://www.ruanyifeng.com/blog/2011/05/how_to_judge_the_existence_of_a_global_object_in_javascript.html)
 
 
 
