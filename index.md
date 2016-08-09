@@ -43,6 +43,11 @@ modifiedOn: 2016-06-20
 - [算法实例](javascriptapi/algorithm.html)
 - [js排序算法](javascriptapi/sort.html)
 
+<h2 id="designpattern">设计模式</h2>
+
+- [单例模式](designpattern/singleton.html)
+
+
 <h2 id="mobileweb">移动 Web 开发</h2>
 
 - [移动端触摸事件](mobileweb/01-touchevent.html)

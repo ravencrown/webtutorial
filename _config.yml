@@ -9,6 +9,7 @@ chapters:
 - dom
 - htmlapi
 - javascriptapi
+- designpattern
 - mobileweb
 - angularjs
 - tool
@@ -30,6 +31,7 @@ css: CSS布局
 dom: DOM
 htmlapi: HTML网页的API
 javascriptapi: JavaScript
+designpattern: 设计模式
 mobileweb: 移动 Web 开发
 angularjs: Angularjs
 tool: 开发工具
