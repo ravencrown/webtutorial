@@ -40,6 +40,8 @@ modifiedOn: 2016-06-20
 - [深入理解函数表达式](javascriptapi/02-functionexpression.html)
 - [错误处理机制](javascriptapi/03-error.html)
 - [JS 中的事件设计](javascriptapi/04-jsevent.html)
+- [如何判断Javascript对象是否存在](javascriptapi/05-judgmentobj.html)
+- [面向对象设计(一)](javascriptapi/06-oo.html)
 - [算法实例](javascriptapi/algorithm.html)
 - [js排序算法](javascriptapi/sort.html)
 
