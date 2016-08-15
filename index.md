@@ -48,6 +48,7 @@ modifiedOn: 2016-06-20
 <h2 id="designpattern">设计模式</h2>
 
 - [单例模式](designpattern/singleton.html)
+- [构造函数模式](designpattern/constructor.html)
 
 
 <h2 id="mobileweb">移动 Web 开发</h2>
